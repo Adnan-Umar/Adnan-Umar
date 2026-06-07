@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Md%20Adnan%20Umar&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineer%20%7C%20Spring%20Boot%20%7C%20Microservices&descAlignY=58&descSize=15" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=6AD3F7&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Adnan+%F0%9F%91%8B;Full+Stack+Developer;Java+%26+JavaScript+Developer;Spring+Boot+%7C+React+%7C+Microservices;Software+Engineer+%7C+DSA+Enthusiast;Apache+Kafka+%7C+Event-Driven+Systems+%E2%9A%A1;Building+Scalable+Backend+Systems+%F0%9F%9A%80;Always+Learning%2C+Always+Building+%F0%9F%94%A5)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=6AD3F7&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Adnan+%F0%9F%91%8B;Full+Stack+Developer;Java+%26+JavaScript+Developer;Spring+Boot+%7C+React+%7C+Microservices;Software+Engineer+%7C+DSA+Enthusiast;Apache+Kafka+%7C+Event-Driven+Systems+%E2%9A%A1;Neo4j+%7C+Graph+Databases+%F0%9F%95%B8%EF%B8%8F;Spring+Cloud+%7C+Kubernetes+%7C+Docker;Building+Scalable+Backend+Systems+%F0%9F%9A%80;Always+Learning%2C+Always+Building+%F0%9F%94%A5)](https://git.io/typing-svg)
 
 <br/>
 
@@ -31,8 +31,9 @@ public class AdnanUmar extends FullStackDeveloper {
     final String location    = "India 🇮🇳";
 
     final String[] backend   = {
-        "Java", "Spring Boot", "Microservices",
+        "Java 21", "Spring Boot 4", "Microservices",
         "REST APIs", "Apache Kafka", "Elasticsearch",
+        "Spring Cloud Gateway", "Netflix Eureka",
         "Stripe Payments", "Webhooks"
     };
 
@@ -42,19 +43,30 @@ public class AdnanUmar extends FullStackDeveloper {
     };
 
     final String[] databases = {
-        "PostgreSQL", "MySQL", "MongoDB", "Redis", "SQL Server"
+        "PostgreSQL", "MySQL", "MongoDB",
+        "Redis", "SQL Server", "Neo4j (Graph DB)"
     };
 
     final String[] devOps    = {
-        "Docker", "Kubernetes", "AWS", "GitHub Actions", "CI/CD"
+        "Docker", "Kubernetes", "AWS",
+        "GitHub Actions", "CI/CD", "Google Jib"
     };
 
-    final String[] learning  = {
-        "System Design", "Backend Architecture",
-        "AI-Integrated Applications", "Cloud Native"
+    final String[] currentlyBuilding = {
+        "AI-integrated Spring Boot applications",
+        "Distributed systems with event-driven architecture",
+        "Cloud-native microservices on Kubernetes"
     };
 
-    final String openTo      = "Full Stack / Backend Dev Opportunities & Open Source Collaboration 🤝";
+    final String[] designPatterns = {
+        "Decorator (Dynamic Pricing)",
+        "API Gateway", "Fan-out",
+        "Event-Driven (Kafka)",
+        "Repository + DTO",
+        "User Context Propagation"
+    };
+
+    final String openTo = "Full Stack / Backend Dev Opportunities & Open Source 🤝";
 
     @Override
     public String toString() {
@@ -62,6 +74,20 @@ public class AdnanUmar extends FullStackDeveloper {
     }
 }
 ```
+
+---
+
+## 🔥 What I'm Currently Working On
+
+<div align="center">
+
+| Status | Project | Focus |
+|:---:|:---:|:---:|
+| 🚧 Active | **distributed-lovable** | Distributed system with containerization & real-time comms |
+| ✅ Complete | **linkedin-app** | Full microservices platform on Kubernetes |
+| ✅ Complete | **airBnb-clone** | Dynamic pricing engine + Stripe payment flows |
+
+</div>
 
 ---
 
@@ -84,13 +110,14 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-| 🔗 Project | 📝 Description | 🛠️ Tech |
-|:---:|:---:|:---:|
-| [**lovable-clone**](https://github.com/Adnan-Umar/lovable-clone) | Lovable clone with real-time features & scalable design | TypeScript · Spring Boot |
-| [**linkedin-app**](https://github.com/Adnan-Umar/linkedin-app) | LinkedIn-style backend with microservices (Auth · User · Posts) | Java · Spring Boot · Kafka |
-| [**airBnb-clone**](https://github.com/Adnan-Umar/airBnb-clone) | Hotel Booking & Management System | Java · Spring Boot |
-| [**distributed-lovable**](https://github.com/Adnan-Umar/distributed-lovable) | Scalable distributed system with containerization & real-time comms | TypeScript · Docker · K8s |
-| [**movies-app**](https://github.com/Adnan-Umar/movies-app) | Spring Boot Movies App | Java · Spring Boot |
+| 🔗 Project | 📝 Description | 🛠️ Tech | 🏗️ Architecture |
+|:---:|:---:|:---:|:---:|
+| [**linkedin-app**](https://github.com/Adnan-Umar/linkedin-app) | LinkedIn-style social network backend | Java · Spring Boot · Kafka · Neo4j | 7 Microservices · K8s |
+| [**airBnb-clone**](https://github.com/Adnan-Umar/airBnb-clone) | Hotel booking system with dynamic pricing | Java · Spring Boot · PostgreSQL · Stripe | Layered · Decorator Pattern |
+| [**distributed-lovable**](https://github.com/Adnan-Umar/distributed-lovable) | Scalable distributed system with real-time comms | TypeScript · Docker · K8s | Distributed · Event-Driven |
+| [**lovable-clone**](https://github.com/Adnan-Umar/lovable-clone) | Lovable clone with real-time features | TypeScript · Spring Boot | Monolith + Real-time |
+| [**my-ai-project**](https://github.com/Adnan-Umar/my-ai-project) | AI-integrated backend application | Java · Spring Boot · AI | In Progress 🚧 |
+| [**movies-app**](https://github.com/Adnan-Umar/movies-app) | Spring Boot Movies REST API | Java · Spring Boot | REST API |
 
 </div>
 
@@ -109,6 +136,7 @@ public class AdnanUmar extends FullStackDeveloper {
 
 ### 🌿 Frameworks & Libraries
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
@@ -134,6 +162,7 @@ public class AdnanUmar extends FullStackDeveloper {
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
 
 ### ☁️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -194,6 +223,27 @@ public class AdnanUmar extends FullStackDeveloper {
 <div align="center">
 
 ![](https://nirzak-trophies.vercel.app/?username=Adnan-Umar&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7)
+
+</div>
+
+---
+
+## 🧠 Skills at a Glance
+
+<div align="center">
+
+| Domain | Technologies |
+|:---|:---|
+| **Backend Core** | Java 21, Spring Boot 4, Spring MVC, Spring Security, Spring Data JPA |
+| **Microservices** | Spring Cloud Gateway, Netflix Eureka, OpenFeign, Service Mesh |
+| **Event-Driven** | Apache Kafka (topics, partitions, consumer groups), event fan-out |
+| **Graph Data** | Neo4j, Cypher queries, Spring Data Neo4j, social graph modeling |
+| **Payments** | Stripe Checkout Sessions, Webhooks, refund flows |
+| **Auth & Security** | JWT (HMAC-SHA), BCrypt, RBAC, refresh token via HttpOnly cookie |
+| **DevOps** | Docker, Kubernetes, GitHub Actions, Google Jib, Nginx Ingress |
+| **Frontend** | React, TypeScript, Node.js, HTML5, CSS3, SASS |
+| **Databases** | PostgreSQL, MySQL, MongoDB, Redis, SQL Server, Oracle, Neo4j |
+| **Design Patterns** | Decorator, Repository, DTO, API Gateway, Fan-out, CQRS-lite |
 
 </div>
 
