@@ -32,7 +32,8 @@ public class AdnanUmar extends FullStackDeveloper {
 
     final String[] backend   = {
         "Java", "Spring Boot", "Microservices",
-        "REST APIs", "Apache Kafka", "Elasticsearch"
+        "REST APIs", "Apache Kafka", "Elasticsearch",
+        "Stripe Payments", "Webhooks"
     };
 
     final String[] frontend  = {
@@ -121,6 +122,11 @@ public class AdnanUmar extends FullStackDeveloper {
 ![Apache ZooKeeper](https://img.shields.io/badge/Apache%20ZooKeeper-E25A1C?style=for-the-badge&logo=apache&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
+### 💳 Payment & Integrations
+![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)
+![Webhook](https://img.shields.io/badge/Webhooks-FF6C37?style=for-the-badge&logo=webhooks&logoColor=white)
+![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
+
 ### 🗄️ Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -193,16 +199,6 @@ public class AdnanUmar extends FullStackDeveloper {
 
 ---
 
-## 📈 Contribution Graph
-
-<div align="center">
-
-[![Adnan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Adnan-Umar&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
 ## ✍️ Random Dev Quote
 
 <div align="center">
@@ -217,11 +213,10 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.gif" />
-</picture>
+<!-- Once you run the GitHub Action (Actions tab → Generate Snake Animation → Run workflow),
+     the snake SVG will appear below automatically. Until then, the activity graph is shown. -->
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adnan-Umar&theme=tokyo-night&hide_border=true&area=true&custom_title=Adnan's+Contribution+Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
