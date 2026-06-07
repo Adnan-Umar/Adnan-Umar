@@ -83,21 +83,13 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-<a href="https://github.com/Adnan-Umar/lovable-clone">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Adnan-Umar&repo=lovable-clone&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Adnan-Umar/linkedin-app">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Adnan-Umar&repo=linkedin-app&theme=tokyonight&hide_border=true" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Adnan-Umar/airBnb-clone">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Adnan-Umar&repo=airBnb-clone&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Adnan-Umar/distributed-lovable">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Adnan-Umar&repo=distributed-lovable&theme=tokyonight&hide_border=true" />
-</a>
+| 🔗 Project | 📝 Description | 🛠️ Tech |
+|:---:|:---:|:---:|
+| [**lovable-clone**](https://github.com/Adnan-Umar/lovable-clone) | Lovable clone with real-time features & scalable design | TypeScript · Spring Boot |
+| [**linkedin-app**](https://github.com/Adnan-Umar/linkedin-app) | LinkedIn-style backend with microservices (Auth · User · Posts) | Java · Spring Boot · Kafka |
+| [**airBnb-clone**](https://github.com/Adnan-Umar/airBnb-clone) | Hotel Booking & Management System | Java · Spring Boot |
+| [**distributed-lovable**](https://github.com/Adnan-Umar/distributed-lovable) | Scalable distributed system with containerization & real-time comms | TypeScript · Docker · K8s |
+| [**movies-app**](https://github.com/Adnan-Umar/movies-app) | Spring Boot Movies App | Java · Spring Boot |
 
 </div>
 
@@ -170,16 +162,22 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-<a href="https://github.com/Adnan-Umar">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Adnan-Umar&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adnan-Umar&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
-</a>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adnan-Umar&theme=tokyonight" width="100%" />
 
 </div>
 
 <div align="center">
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=Adnan-Umar&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Adnan-Umar&theme=tokyonight" height="180em" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Adnan-Umar&theme=tokyonight" height="180em" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Adnan-Umar&theme=tokyonight" height="180em" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Adnan-Umar&theme=tokyonight" height="180em" />
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=Adnan-Umar&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
@@ -219,11 +217,9 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
-</picture>
+![snake gif](https://github.com/Adnan-Umar/Adnan-Umar/blob/output/github-contribution-grid-snake.gif?raw=true)
+
+> ⚙️ _Snake animation auto-generates via GitHub Actions — [trigger it manually here](https://github.com/Adnan-Umar/Adnan-Umar/actions/workflows/snake.yml) if it hasn't run yet._
 
 </div>
 
