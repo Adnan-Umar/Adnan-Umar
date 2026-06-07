@@ -217,9 +217,11 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-![snake gif](https://github.com/Adnan-Umar/Adnan-Umar/blob/output/github-contribution-grid-snake.gif?raw=true)
-
-> ⚙️ _Snake animation auto-generates via GitHub Actions — [trigger it manually here](https://github.com/Adnan-Umar/Adnan-Umar/actions/workflows/snake.yml) if it hasn't run yet._
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.gif" />
+</picture>
 
 </div>
 
