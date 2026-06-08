@@ -263,10 +263,11 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-<!-- Once you run the GitHub Action (Actions tab → Generate Snake Animation → Run workflow),
-     the snake SVG will appear below automatically. Until then, the activity graph is shown. -->
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adnan-Umar&theme=tokyo-night&hide_border=true&area=true&custom_title=Adnan's+Contribution+Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
+  <img alt="github-contribution-grid-snake" src="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
