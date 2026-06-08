@@ -259,15 +259,11 @@ public class AdnanUmar extends FullStackDeveloper {
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Graph
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
-  <img alt="github-contribution-grid-snake" src="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg" />
-</picture>
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adnan-Umar&theme=tokyo-night&hide_border=true&area=true&custom_title=Adnan's%20Contribution%20Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
