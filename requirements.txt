@@ -1,0 +1,12 @@
+# Core HTTP + HTML parsing
+requests==2.32.3
+beautifulsoup4==4.13.4
+
+# Image processing
+Pillow==12.3.0
+numpy==2.3.4
+opencv-python==4.11.0.86
+
+# AI background removal (requires onnxruntime)
+# Install with: pip install "rembg[cpu]"
+rembg==2.0.77
