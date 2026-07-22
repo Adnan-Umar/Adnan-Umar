@@ -86,6 +86,19 @@ Instagram: https://instagram.com/_adnan__umar_
 
 ---
 
+## README Resilience
+
+- Removed external visit counters: `komarev.com/ghpvc/`, `visitcount.itsvg.in`
+- Replaced external trophy service (`github-profile-trophy.vercel.app`) with static markdown achievements table
+- Remaining external services in README (acceptable):
+  - `github-profile-summary-cards.vercel.app` — stats cards
+  - `streak-stats.demolab.com` — streak stats
+  - `quotes-github-readme.vercel.app` — dev quotes
+  - `img.shields.io` — technology badges
+- External services are necessary for dynamic content; static markdown is preferred for static content
+
+---
+
 ## Workflow Notes
 
 - `update-profile.yml` uses `[skip ci]` in commit message — prevents infinite Action loops

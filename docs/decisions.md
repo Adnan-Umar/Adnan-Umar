@@ -81,3 +81,19 @@
 
 **Decision:** `scripts/pic-b64.txt` is listed in `.gitignore` and never committed.  
 **Reason:** The base64 string is ~114 KB of pure text. Committing it would bloat the repository history permanently (Git stores the full content of every version of every file). The file is generated/extracted locally and consumed locally during the SVG build step. `make_info_card.py` falls back to extracting the base64 directly from the existing `info-card.svg` if `pic-b64.txt` is missing.
+
+---
+
+## DEC-11 — Static achievements instead of external trophy service
+
+**Decision:** Replace `github-profile-trophy.vercel.app` with a static markdown achievements table.  
+**Alternatives considered:** Continue using github-profile-trophy, use `github-readme-achievements` API.  
+**Reason:** The trophy service is rate-limited, slow to render, and has experienced extended downtime. A static markdown table is instant, always renders, never breaks, and still communicates the same information. Profile achievements are now visible natively on GitHub profiles, making the trophy widget redundant.
+
+---
+
+## DEC-12 — Remove external visit counters
+
+**Decision:** Remove `komarev.com/ghpvc/` and `visitcount.itsvg.in` badges from README.  
+**Alternatives considered:** Keep one of the services, replace with self-hosted counter.  
+**Reason:** Both services are external dependencies that can disappear, rate-limit, or break without warning. Profile view counts are not critical to the profile's function. A clean, fast-loading README without these external HTTP requests is more reliable and professional.

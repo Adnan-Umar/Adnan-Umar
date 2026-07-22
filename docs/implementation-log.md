@@ -98,3 +98,16 @@
 - Updated `docs/assets.md` to remove references to non-existent files
 - Updated `docs/decisions.md` and `docs/rules.md` to remove references to missing scripts
 - Updated `docs/design.md` photo pipeline section
+
+### README Resilience Improvements
+
+- Removed external visit count badges:
+  - Removed `komarev.com/ghpvc/` profile views badge
+  - Removed `visitcount.itsvg.in` visit counter from footer
+- Replaced external achievement service with static achievements table:
+  - Removed `github-profile-trophy.vercel.app` external API call
+  - Added static `$ cat achievements.md` section with 8 common GitHub achievements
+- Added freelancing experience entry to timeline:
+  - Added **2024 – Present** | Freelancing | Client projects · microservices · Spring Boot · cloud deployments
+
+**Rationale:** External badge services like komarev.com, github-profile-trophy.vercel.app, and visitcount.itsvg.in can suffer from downtime, rate-limiting, or service discontinuation. Static markdown ensures the README always renders correctly regardless of third-party service availability.

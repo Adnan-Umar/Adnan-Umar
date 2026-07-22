@@ -92,3 +92,22 @@
 - `implementation-log.md` gets an entry for every significant change
 - `decisions.md` explains the *why* behind non-obvious choices
 - All docs must accurately reflect the current state of the project
+
+## 6. README / External Service Rules
+
+- Minimise external HTTP dependencies in `README.md`
+- Prefer static markdown over third-party badge APIs for:
+  - Profile visit counts (use static text or self-hosted counters)
+  - Achievement trophies (use static markdown table or native GitHub achievements)
+  - Quote widgets (use static quotes or self-hosted alternatives)
+- Allowed external services (required for functionality):
+  - `github-profile-summary-cards.vercel.app` — profile stats cards
+  - `streak-stats.demolab.com` — streak statistics
+  - `quotes-github-readme.vercel.app` — dev quotes
+  - `img.shields.io` — technology badges (reliable CDN)
+- Prohibited external services (unreliable or deprecated):
+  - `komarev.com/ghpvc/` — profile view counter (deprecated/unreliable)
+  - `github-profile-trophy.vercel.app` — trophy generator (rate-limited, slow)
+  - `visitcount.itsvg.in` — visit counter (unreliable)
+- External SVG assets must be embedded as base64 data URIs, not linked via URL
+
