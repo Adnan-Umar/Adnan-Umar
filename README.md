@@ -1,212 +1,223 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Md%20Adnan%20Umar&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineer%20%7C%20Spring%20Boot%20%7C%20Microservices&descAlignY=58&descSize=15" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=6AD3F7&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Adnan+%F0%9F%91%8B;Full+Stack+Developer;Java+%26+JavaScript+Developer;Spring+Boot+%7C+React+%7C+Microservices;Software+Engineer+%7C+DSA+Enthusiast;Apache+Kafka+%7C+Event-Driven+Systems+%E2%9A%A1;Neo4j+%7C+Graph+Databases+%F0%9F%95%B8%EF%B8%8F;Spring+Cloud+%7C+Kubernetes+%7C+Docker;Building+Scalable+Backend+Systems+%F0%9F%9A%80;Always+Learning%2C+Always+Building+%F0%9F%94%A5)](https://git.io/typing-svg)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://adnan-portfolio-lykp.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adnan--umar)
-[![Codolio](https://img.shields.io/badge/Codolio-4B32C3?style=for-the-badge&logo=codeforces&logoColor=white)](https://codolio.com/profile/Adnan_Umar)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adnanmd0786@gmail.com)
-
-<img src="https://komarev.com/ghpvc/?username=Adnan-Umar&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img src="./dark.svg" width="100%" alt="Md Adnan Umar — Software Engineer" />
+</picture>
 
 </div>
 
 ---
 
-## 💫 About Me
+<div align="center">
+
+[![Profile Views](https://komarev.com/ghpvc/?username=Adnan-Umar&label=Profile+Views&color=7C3AED&style=for-the-badge)](https://github.com/Adnan-Umar)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adnan--umar)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://adnan-portfolio-lykp.onrender.com/)
+&nbsp;
+[![Email](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adnanmd0786@gmail.com)
+
+</div>
+
+---
+
+## `$ whoami`
+
+I build backend-first systems designed to survive production traffic. My work spans distributed microservices on Spring Boot, event-driven pipelines with Apache Kafka, Kubernetes-native deployments, and AI-integrated services using Spring AI and OpenAI APIs.
+
+I care about clean interfaces, predictable latency, resilient failure modes, and systems that are as easy to observe as they are to scale.
+
+Currently in my final year of B.Tech Computer Science — spending that time on system design, cloud-native patterns, and production-grade observability.
+
+---
+
+## `$ cat about.java`
 
 ```java
-public class AdnanUmar extends FullStackDeveloper {
+public final class AdnanUmar implements Engineer {
 
-    final String name        = "Md Adnan Umar";
-    final String role[]      = {
-        "Full Stack Developer",
-        "Java Backend Developer",
-        "Software Engineer"
-    };
-    final String location    = "India 🇮🇳";
+    private final String  name     = "Md Adnan Umar";
+    private final String  role     = "Software Engineer";
+    private final String  location = "India";
+    private final boolean openToWork = true;
 
-    final String[] backend   = {
-        "Java 21", "Spring Boot 4", "Microservices",
-        "REST APIs", "Apache Kafka", "Elasticsearch",
-        "Spring Cloud Gateway", "Netflix Eureka",
-        "Stripe Payments", "Webhooks"
-    };
+    private final Stack primary = Stack.of(
+        JAVA, SPRING_BOOT, SPRING_SECURITY, KAFKA,
+        KUBERNETES, DOCKER, POSTGRESQL, REDIS
+    );
 
-    final String[] frontend  = {
-        "JavaScript", "TypeScript", "React",
-        "HTML5", "CSS3", "Node.js"
-    };
+    private final Stack secondary = Stack.of(
+        PYTHON, FASTAPI, REACT, NEXTJS, TYPESCRIPT
+    );
 
-    final String[] databases = {
-        "PostgreSQL", "MySQL", "MongoDB",
-        "Redis", "SQL Server", "Neo4j (Graph DB)"
-    };
-
-    final String[] devOps    = {
-        "Docker", "Kubernetes", "AWS",
-        "GitHub Actions", "CI/CD", "Google Jib"
-    };
-
-    final String[] currentlyBuilding = {
-        "AI-integrated Spring Boot applications",
-        "Distributed systems with event-driven architecture",
-        "Cloud-native microservices on Kubernetes"
-    };
-
-    final String[] designPatterns = {
-        "Decorator (Dynamic Pricing)",
-        "API Gateway", "Fan-out",
-        "Event-Driven (Kafka)",
-        "Repository + DTO",
-        "User Context Propagation"
-    };
-
-    final String openTo = "Full Stack / Backend Dev Opportunities & Open Source 🤝";
+    private final Focus currentFocus = Focus.builder()
+        .backend("Event-driven microservices with Spring Boot + Kafka")
+        .cloud("Kubernetes-native deployments with Spring Cloud Gateway")
+        .ai("Spring AI + OpenAI integrations for intelligent services")
+        .architecture("CQRS, distributed data, scalable REST APIs")
+        .observability("Structured logging, distributed tracing, metrics")
+        .build();
 
     @Override
-    public String toString() {
-        return "Passionate dev building clean, scalable systems ☕";
+    public String mission() {
+        return "Clean systems. Event-driven flows. Scalable architecture.";
     }
 }
 ```
 
 ---
 
-## 🔥 What I'm Currently Working On
+## `$ neofetch`
+
+<div align="center">
+<img src="./info-card.svg" width="100%" alt="Adnan Umar — neofetch terminal card" />
+</div>
+
+---
+
+## `$ cat education.md`
+
+| Degree | Institution | Status | Focus |
+|:---|:---|:---:|:---|
+| B.Tech Computer Science | India | **Final Year** | Distributed Systems · Cloud · AI Engineering |
+| Coursework | Self-directed | Ongoing | System Design · Kafka · Kubernetes · Spring AI |
+
+---
+
+## `$ cat experience.md`
+
+| Period | Role | Context | Stack |
+|:---|:---|:---|:---|
+| 2024 | Backend Intern | Industry | Spring Boot · PostgreSQL · REST APIs |
+| 2023 – Present | Open Source & Projects | Community | Microservices · CI/CD · Event-driven |
+| 2022 – Present | B.Tech CSE | Academic | Java · Distributed Systems · Cloud |
+
+---
+
+## `$ cat focus.md`
 
 <div align="center">
 
-| Status | Project | Focus |
-|:---:|:---:|:---:|
-| 🚧 Active | **distributed-lovable** | Distributed system with containerization & real-time comms |
-| ✅ Complete | **linkedin-app** | Full microservices platform on Kubernetes |
-| ✅ Complete | **airBnb-clone** | Dynamic pricing engine + Stripe payment flows |
+| Area | What I'm Building |
+|:---|:---|
+| **Backend Systems** | Event-driven microservices · Spring Boot · Kafka |
+| **Cloud Architecture** | Kubernetes deployments · Spring Cloud Gateway · AWS |
+| **AI Engineering** | Spring AI · OpenAI API integrations · Intelligent services |
+| **System Design** | Scalable REST APIs · CQRS · Distributed data patterns |
+| **Observability** | Structured logging · Distributed tracing · Metrics |
 
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## `$ cat tech-stack.md`
 
-<div align="center">
+### Languages
 
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/adnan_umar)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/_adnan__umar_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adnan--umar)
-[![X](https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/Adnan__Umar)
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://reddit.com/user/Adnan_Umar_)
-[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/adnan-umar)
+![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-%2300599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-</div>
+### Backend Frameworks
 
----
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-%236DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-%23009966?style=for-the-badge&logo=fastapi&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
-## 🚀 Featured Projects
+### Frontend
 
-<div align="center">
-
-| 🔗 Project | 📝 Description | 🛠️ Tech | 🏗️ Architecture |
-|:---:|:---:|:---:|:---:|
-| [**linkedin-app**](https://github.com/Adnan-Umar/linkedin-app) | LinkedIn-style social network backend | Java · Spring Boot · Kafka · Neo4j | 7 Microservices · K8s |
-| [**airBnb-clone**](https://github.com/Adnan-Umar/airBnb-clone) | Hotel booking system with dynamic pricing | Java · Spring Boot · PostgreSQL · Stripe | Layered · Decorator Pattern |
-| [**distributed-lovable**](https://github.com/Adnan-Umar/distributed-lovable) | Scalable distributed system with real-time comms | TypeScript · Docker · K8s | Distributed · Event-Driven |
-| [**lovable-clone**](https://github.com/Adnan-Umar/lovable-clone) | Lovable clone with real-time features | TypeScript · Spring Boot | Monolith + Real-time |
-| [**my-ai-project**](https://github.com/Adnan-Umar/my-ai-project) | AI-integrated backend application | Java · Spring Boot · AI | In Progress 🚧 |
-| [**movies-app**](https://github.com/Adnan-Umar/movies-app) | Spring Boot Movies REST API | Java · Spring Boot | REST API |
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-### 🔤 Languages
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-### 🌿 Frameworks & Libraries
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React](https://img.shields.io/badge/React-%2320232a?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![JavaFX](https://img.shields.io/badge/JavaFX-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-### ⚡ Messaging & Streaming
+### Messaging & Streaming
+
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Apache ZooKeeper](https://img.shields.io/badge/Apache%20ZooKeeper-E25A1C?style=for-the-badge&logo=apache&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
-### 💳 Payment & Integrations
-![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)
-![Webhook](https://img.shields.io/badge/Webhooks-FF6C37?style=for-the-badge&logo=webhooks&logoColor=white)
-![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
+### Databases
 
-### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Microsoft SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DD0031?style=for-the-badge&logo=redis&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
 
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+### Cloud & DevOps
 
-### 🧰 Tools & Platforms
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5?style=for-the-badge&logo=githubactions&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-%23009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+### Tools
+
+![Git](https://img.shields.io/badge/Git-%23F05033?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
-![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
-![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
+## `$ ls projects/`
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adnan-Umar&theme=tokyonight" width="100%" />
+| Project | Description | Stack | Architecture |
+|:---|:---|:---|:---|
+| [**linkedin-app**](https://github.com/Adnan-Umar/linkedin-app) | LinkedIn-style social network backend with connection graphs, feed, and notifications | Java · Spring Boot · Kafka · Neo4j | 7 Microservices · Kubernetes |
+| [**airBnb-clone**](https://github.com/Adnan-Umar/airBnb-clone) | Hotel booking platform with dynamic pricing and payment processing | Java · Spring Boot · PostgreSQL · Stripe | Layered · Decorator Pattern |
+| [**distributed-lovable**](https://github.com/Adnan-Umar/distributed-lovable) | Real-time collaboration features in a distributed system | TypeScript · Docker · Kubernetes | Distributed · Event-Driven |
+| [**lovable-clone**](https://github.com/Adnan-Umar/lovable-clone) | Real-time feature platform with live state sync | TypeScript · Spring Boot | Monolith + WebSockets |
+| [**my-ai-project**](https://github.com/Adnan-Umar/my-ai-project) | AI-integrated backend using Spring AI + OpenAI APIs | Java · Spring Boot · Spring AI | In Progress 🚧 |
+| [**movies-app**](https://github.com/Adnan-Umar/movies-app) | RESTful movie catalogue and review API | Java · Spring Boot · MySQL | REST · Layered |
+
+</div>
+
+---
+
+## `$ cat open-source.md`
+
+I contribute to open source because the best production patterns come from real-world collaboration. My areas of focus:
+
+- **Spring Boot utilities** — common backend patterns, cleaner abstractions for boilerplate-heavy code
+- **Kafka client patterns** — resilient consumers with built-in retry and dead-letter logic
+- **CI/CD workflows** — GitHub Actions pipelines optimised for Java services
+- **Documentation** — improving setup guides and architecture notes in projects I use
+
+Every PR I write is treated as production code — clean architecture, meaningful commit messages, and respect for the project's conventions.
+
+---
+
+## `$ cat github-stats.md`
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adnan-Umar&theme=tokyonight" width="100%" alt="Profile summary" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Adnan-Umar&theme=tokyonight" height="180em" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Adnan-Umar&theme=tokyonight" height="180em" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Adnan-Umar&theme=tokyonight" height="180em" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Adnan-Umar&theme=tokyonight" height="180em" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Repos per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Commit language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Productive time" />
 
 </div>
 
@@ -218,52 +229,64 @@ public class AdnanUmar extends FullStackDeveloper {
 
 ---
 
-## 🏆 GitHub Trophies
+## `$ cat contribution-graph.md`
 
 <div align="center">
 
-![](https://nirzak-trophies.vercel.app/?username=Adnan-Umar&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7)
+<img src="./contrib-heatmap.svg" width="100%" alt="Contribution heatmap" />
 
 </div>
 
 ---
 
-## 🧠 Skills at a Glance
+## `$ cat achievements.md`
 
 <div align="center">
 
-| Domain | Technologies |
-|:---|:---|
-| **Backend Core** | Java 21, Spring Boot 4, Spring MVC, Spring Security, Spring Data JPA |
-| **Microservices** | Spring Cloud Gateway, Netflix Eureka, OpenFeign, Service Mesh |
-| **Event-Driven** | Apache Kafka (topics, partitions, consumer groups), event fan-out |
-| **Graph Data** | Neo4j, Cypher queries, Spring Data Neo4j, social graph modeling |
-| **Payments** | Stripe Checkout Sessions, Webhooks, refund flows |
-| **Auth & Security** | JWT (HMAC-SHA), BCrypt, RBAC, refresh token via HttpOnly cookie |
-| **DevOps** | Docker, Kubernetes, GitHub Actions, Google Jib, Nginx Ingress |
-| **Frontend** | React, TypeScript, Node.js, HTML5, CSS3, SASS |
-| **Databases** | PostgreSQL, MySQL, MongoDB, Redis, SQL Server, Oracle, Neo4j |
-| **Design Patterns** | Decorator, Repository, DTO, API Gateway, Fan-out, CQRS-lite |
+![Trophies](https://github-profile-trophy.vercel.app/?username=Adnan-Umar&theme=tokyonight&no-frame=true&no-bg=false&margin-w=6&column=7)
 
 </div>
 
 ---
 
-## ✍️ Random Dev Quote
+## `$ cat timeline.md`
 
 <div align="center">
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+| Period | Milestone | Focus |
+|:---|:---|:---|
+| **2022** | Started B.Tech Computer Science | Java fundamentals · Data structures · Algorithms |
+| **2023** | First backend projects | Spring Boot REST APIs · MySQL · Git workflow |
+| **2023** | Discovered microservices | Docker · Spring Cloud · service decomposition |
+| **2024** | Industry internship | Production Spring Boot APIs · PostgreSQL optimisation |
+| **2024** | Distributed systems deep-dive | Apache Kafka · Kubernetes · event-driven architecture |
+| **2025** | AI integration | Spring AI · OpenAI APIs · intelligent backend services |
+| **2025** | Final year thesis | System design at scale · cloud-native observability |
 
 </div>
 
 ---
 
-## 🐍 Contribution Graph
+## `$ cat connect.md`
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adnan-Umar&theme=tokyo-night&hide_border=true&area=true&custom_title=Adnan's%20Contribution%20Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://adnan-portfolio-lykp.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adnan--umar)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Adnan__Umar)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Adnan-Umar)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adnanmd0786@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_adnan__umar_)
+
+</div>
+
+---
+
+## `$ cat quote.txt`
+
+<div align="center">
+
+![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 </div>
 
@@ -271,13 +294,17 @@ public class AdnanUmar extends FullStackDeveloper {
 
 <div align="center">
 
-[![](https://visitcount.itsvg.in/api?id=Adnan-Umar&icon=6&color=6)](https://visitcount.itsvg.in)
+<sub>
+Profile built with Python · SVG · SMIL animations · GitHub Actions<br/>
+Assets generated by <a href="./scripts">scripts/</a> — photo processed with rembg · hero SVGs hand-crafted in pure SVG
+</sub>
 
-### 💰 Support My Work
+<br/><br/>
 
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Adnan_Umar)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/AdnanUmar7)
+<img src="https://visitcount.itsvg.in/api?id=Adnan-Umar&icon=6&color=6" alt="Visit count" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
+<br/><br/>
+
+If any of my work helped you, a ⭐ on the relevant repository goes a long way.
 
 </div>
