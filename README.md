@@ -82,7 +82,7 @@ public final class AdnanUmar implements Engineer {
 
 | Degree | Institution | Status | Focus |
 |:---|:---|:---:|:---|
-| B.Tech Computer Science | India | **Final Year** | Distributed Systems · Cloud · AI Engineering |
+| B.Tech Computer Science | Quantum University | **2022 - 2026** | Core Computer Science |
 | Coursework | Self-directed | Ongoing | System Design · Kafka · Kubernetes · Spring AI |
 
 ---
@@ -93,7 +93,7 @@ public final class AdnanUmar implements Engineer {
 |:---|:---|:---|:---|
 | 2024 | Backend Intern | Industry | Spring Boot · PostgreSQL · REST APIs |
 | 2023 – Present | Open Source & Projects | Community | Microservices · CI/CD · Event-driven |
-| 2022 – Present | B.Tech CSE | Academic | Java · Distributed Systems · Cloud |
+| 2022 – 2026 | B.Tech CSE | Academic | Java · Distributed Systems · Cloud |
 
 ---
 

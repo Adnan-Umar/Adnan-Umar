@@ -418,7 +418,7 @@ def build_info_card(b64_uri: str,
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(svg, encoding="utf-8")
     kb = out.stat().st_size // 1024
-    print(f"  info-card.svg  {W}\u00d7{H}  {kb} KB  \u2192  {out}")
+    print(f"  info-card.svg  {W}x{H}  {kb} KB  ->  {out}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -426,13 +426,26 @@ def build_info_card(b64_uri: str,
 # ─────────────────────────────────────────────────────────────────────────────
 def main() -> None:
     b64_path = pathlib.Path("scripts/pic-b64.txt")
-    if not b64_path.exists():
-        print("ERROR: scripts/pic-b64.txt not found. "
-              "Run scripts/_process_photo.py first.", file=sys.stderr)
-        sys.exit(1)
+    if b64_path.exists():
+        b64_uri = b64_path.read_text(encoding="utf-8").strip()
+    else:
+        svg_path = pathlib.Path("info-card.svg")
+        if svg_path.exists():
+            text = svg_path.read_text(encoding="utf-8")
+            start_marker = '<image href="data:image/png;base64,'
+            idx = text.find(start_marker)
+            if idx != -1:
+                start = idx + len(start_marker)
+                end = text.find('"', start)
+                b64_uri = 'data:image/png;base64,' + text[start:end]
+            else:
+                print("ERROR: no embedded image found in info-card.svg", file=sys.stderr)
+                sys.exit(1)
+        else:
+            print("ERROR: scripts/pic-b64.txt not found and no info-card.svg to extract from.", file=sys.stderr)
+            sys.exit(1)
 
-    b64_uri = b64_path.read_text().strip()
-    out     = sys.argv[1] if len(sys.argv) > 1 else "info-card.svg"
+    out = sys.argv[1] if len(sys.argv) > 1 else "info-card.svg"
     print(f"Building {out} …")
     build_info_card(b64_uri, DARK, out)
     print("Done.")
