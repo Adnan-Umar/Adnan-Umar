@@ -157,7 +157,7 @@ def left_panel(t, b64_photo):
     <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="1.7s"/>
       <text x="90" y="416" fill="{t['muted']}">&#9702; status</text>
       <circle cx="174" cy="412" r="4" fill="{a3}"><animate attributeName="r" values="4;5;4" dur="1.5s" repeatCount="indefinite"/></circle>
-      <text x="182" y="416" fill="{a3}">open to work</text>
+      <text x="182" y="416" fill="{a3}">accepting offers</text>
     </g>
   </g>
 
@@ -473,7 +473,7 @@ def build_info_card(t, b64_photo):
   <rect x="22" y="166" width="84" height="18" rx="9" fill="{p3}" stroke="{p3s}" stroke-width="1"/>
   <circle cx="33" cy="175" r="3.5" fill="{a3}"><animate attributeName="r" values="3.5;4.5;3.5" dur="1.5s" repeatCount="indefinite"/></circle>
   <text x="58" y="179" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-    font-size="8.5" fill="{a3}" text-anchor="middle">open to work</text>
+    font-size="8.5" fill="{a3}" text-anchor="middle">accepting offers</text>
 
   <!-- RIGHT: neofetch info lines -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">

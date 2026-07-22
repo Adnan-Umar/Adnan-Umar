@@ -260,7 +260,7 @@ def _build_avatar(b64_uri: str, t: Theme) -> list[str]:
         f'  <animate attributeName="r" values="3.5;4.5;3.5" dur="1.6s" repeatCount="indefinite"/>',
         f'</circle>',
         f'<text x="{AVATAR_X + AVATAR_R + 4}" y="{cy + AVATAR_R + 19}" font-family="{FONT}"'
-        f' font-size="8.5" fill="{t.accent3}" text-anchor="middle">open to work</text>',
+        f' font-size="8.5" fill="{t.accent3}" text-anchor="middle">accepting offers</text>',
     ]
 
 

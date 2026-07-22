@@ -55,7 +55,7 @@
 <circle cx="30" cy="175" r="3.5" fill="#10B981">
   <animate attributeName="r" values="3.5;4.5;3.5" dur="1.6s" repeatCount="indefinite"/>
 </circle>
-<text x="74" y="179" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#10B981" text-anchor="middle">open to work</text>
+<text x="74" y="179" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#10B981" text-anchor="middle">accepting offers</text>
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" dur="0.25s" fill="freeze" begin="0.35s"/>
 <text x="154" y="64" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#22D3EE" filter="url(#glow)">adnan</text>

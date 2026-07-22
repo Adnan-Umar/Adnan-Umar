@@ -40,7 +40,7 @@ public final class AdnanUmar implements Engineer {
     private final String  name     = "Md Adnan Umar";
     private final String  role     = "Software Engineer";
     private final String  location = "India";
-    private final boolean openToWork = true;
+    private final boolean acceptingOffers = true;
 
     private final Stack primary = Stack.of(
         JAVA, SPRING_BOOT, SPRING_SECURITY, KAFKA,
@@ -90,7 +90,7 @@ public final class AdnanUmar implements Engineer {
 | Period | Role | Context | Stack |
 |:---|:---|:---|:---|
 | 2024 | Backend Intern | Industry | Spring Boot · PostgreSQL · REST APIs |
-| 2023 – Present | Open Source & Projects | Community | Microservices · CI/CD · Event-driven |
+| 2023 – Present | Independent Projects & OSS | Community | Microservices · CI/CD · Event-driven |
 | 2022 – 2026 | B.Tech CSE | Academic | Java · Distributed Systems · Cloud |
 
 ---
@@ -289,7 +289,7 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 | **2023** | Discovered microservices | Docker · Spring Cloud · service decomposition |
 | **2024** | Industry internship | Production Spring Boot APIs · PostgreSQL optimisation |
 | **2024** | Distributed systems deep-dive | Apache Kafka · Kubernetes · event-driven architecture |
-| **2024 – Present** | Freelancing | Client projects · microservices · Spring Boot · cloud deployments |
+| **2024 – Present** | Independent Consulting | Client engagements · microservices · Spring Boot · cloud deployments |
 | **2025** | AI integration | Spring AI · OpenAI APIs · intelligent backend services |
 | **2025** | Final year thesis | System design at scale · cloud-native observability |
 
