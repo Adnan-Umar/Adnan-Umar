@@ -231,6 +231,16 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Adnan-Umar/Adnan-Umar/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake eating my contributions" />
+</picture>
+
+</div>
+
+<div align="center">
+
 <img src="./contrib-heatmap.svg" width="100%" alt="Contribution heatmap" />
 
 </div>
