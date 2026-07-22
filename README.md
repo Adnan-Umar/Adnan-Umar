@@ -245,6 +245,12 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 </div>
 
+<div align="center">
+
+<img src="./monthly-heatmap.svg" width="60%" alt="Last 28 days contribution heatmap" />
+
+</div>
+
 ---
 
 ## `$ cat achievements.md`
