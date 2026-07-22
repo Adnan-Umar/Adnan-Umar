@@ -37,26 +37,35 @@ _HEADERS = {
 }
 
 
-def _parse_count(element) -> int:
+def _parse_count(cell) -> int:
     """Extract contribution count from a cell element.
-    Tries data-count attribute first, then text content, then tooltip text."""
-    # data-count attribute (new GitHub)
-    val = element.get("data-count")
+    Tries data-count attr, cell text, adjacent tooltip, then aria labels."""
+    # data-count attribute (older GitHub)
+    val = cell.get("data-count")
     if val is not None:
         try:
             return int(val)
         except ValueError:
             pass
 
-    # Some GitHub themes embed the count in a <title> or tooltip text
-    title_tag = element.find("title")
+    # Some themes embed the count in a <title> tooltip
+    title_tag = cell.find("title")
     if title_tag and title_tag.string:
         m = re.search(r"(\d+)\s+contribution", title_tag.string, re.IGNORECASE)
         if m:
             return int(m.group(1))
 
+    # Current GitHub (2026): count is in sibling <tool-tip> element
+    tooltip_id = cell.get("id")
+    if tooltip_id:
+        tooltip = cell.find_parent("table").find("tool-tip", {"for": tooltip_id})
+        if tooltip and tooltip.string:
+            m = re.search(r"(\d+)\s+contribution", tooltip.string, re.IGNORECASE)
+            if m:
+                return int(m.group(1))
+
     # Fall back to the element's own text
-    text = element.get_text(strip=True)
+    text = cell.get_text(strip=True)
     m = re.search(r"(\d+)\s+contribution", text, re.IGNORECASE)
     if m:
         return int(m.group(1))
@@ -90,13 +99,13 @@ def _parse_level(element, count: int) -> int:
 def fetch_contributions(username: str,
                         output_path: str = "data/contributions.json") -> None:
     url = f"https://github.com/users/{username}/contributions"
-    print(f"Fetching {url} …", flush=True)
+    print(f"Fetching {url} ...", flush=True)
 
     try:
         resp = requests.get(url, headers=_HEADERS, timeout=30)
         resp.raise_for_status()
     except requests.RequestException as e:
-        print(f"ERROR: request failed — {e}", file=sys.stderr)
+        print(f"ERROR: request failed - {e}", file=sys.stderr)
         sys.exit(1)
 
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -135,7 +144,7 @@ def fetch_contributions(username: str,
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2)
 
-    print(f"Saved {len(days)} days → {output_path}  (total: {total:,} contributions)")
+    print(f"Saved {len(days)} days -> {output_path}  (total: {total:,} contributions)")
 
 
 if __name__ == "__main__":

@@ -178,12 +178,12 @@ public final class AdnanUmar implements Engineer {
 
 | Project | Description | Stack | Architecture |
 |:---|:---|:---|:---|
-| [**linkedin-app**](https://github.com/Adnan-Umar/linkedin-app) | LinkedIn-style social network backend with connection graphs, feed, and notifications | Java · Spring Boot · Kafka · Neo4j | 7 Microservices · Kubernetes |
-| [**airBnb-clone**](https://github.com/Adnan-Umar/airBnb-clone) | Hotel booking platform with dynamic pricing and payment processing | Java · Spring Boot · PostgreSQL · Stripe | Layered · Decorator Pattern |
-| [**distributed-lovable**](https://github.com/Adnan-Umar/distributed-lovable) | Real-time collaboration features in a distributed system | TypeScript · Docker · Kubernetes | Distributed · Event-Driven |
-| [**lovable-clone**](https://github.com/Adnan-Umar/lovable-clone) | Real-time feature platform with live state sync | TypeScript · Spring Boot | Monolith + WebSockets |
-| [**my-ai-project**](https://github.com/Adnan-Umar/my-ai-project) | AI-integrated backend using Spring AI + OpenAI APIs | Java · Spring Boot · Spring AI | In Progress 🚧 |
-| [**movies-app**](https://github.com/Adnan-Umar/movies-app) | RESTful movie catalogue and review API | Java · Spring Boot · MySQL | REST · Layered |
+| [**linkedin-app**](https://github.com/Adnan-Umar/linkedin-app) | LinkedIn-style professional network backend with microservices for auth, profiles, connections, and post interactions | Java · Spring Boot · Kafka · Neo4j | 7 Microservices · Kubernetes |
+| [**airBnb-clone**](https://github.com/Adnan-Umar/airBnb-clone) | Hotel booking and management platform with dynamic pricing, reviews, and booking system | Java · Spring Boot · PostgreSQL · Stripe | Layered · Decorator Pattern |
+| [**distributed-lovable**](https://github.com/Adnan-Umar/distributed-lovable) | Scalable distributed system with modern backend architecture, containerization, and real-time communication | TypeScript · Docker · Kubernetes | Distributed · Event-Driven |
+| [**AI-First-CRM**](https://github.com/Adnan-Umar/AI-First-CRM) | AI-integrated CRM system with intelligent customer insights and automated workflows | Python · AI/ML | Full Stack |
+| [**Inventory-Hub**](https://github.com/Adnan-Umar/Inventory-Hub) | Internship project for inventory management with tracking, analytics, and reporting | Java · Spring Boot · MySQL | REST API |
+| [**CodeHub**](https://github.com/Adnan-Umar/CodeHub) | Auto-sync LeetCode, GeeksforGeeks, HackerRank, and Code360 solutions to GitHub | JavaScript · Node.js | Automation |
 
 </div>
 

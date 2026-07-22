@@ -200,7 +200,7 @@ def render(input_path: str = "data/contributions.json",
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(parts))
 
-    print(f"Heatmap written → {output_path}  ({CANVAS_W}×{CANVAS_H}px, {len(days_list)} days)")
+    print(f"Heatmap written -> {output_path}  ({CANVAS_W}x{CANVAS_H}px, {len(days_list)} days)")
 
 
 if __name__ == "__main__":
