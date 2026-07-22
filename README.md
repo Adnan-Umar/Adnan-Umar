@@ -251,6 +251,12 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 </div>
 
+<div align="center">
+
+<img src="./contribution-chart.svg" width="100%" alt="Daily contribution bar chart" />
+
+</div>
+
 ---
 
 ## `$ cat achievements.md`
