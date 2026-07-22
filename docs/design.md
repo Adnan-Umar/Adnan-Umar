@@ -144,13 +144,22 @@ All animations use SMIL (Synchronized Multimedia Integration Language), the only
 
 ## 6. Photo Processing Pipeline
 
-The avatar photo is embedded as base64 directly into the SVGs:
-- `scripts/pic-b64.txt` contains the base64 data URI
-- `make_info_card.py` reads `pic-b64.txt` and embeds it into `info-card.svg`
-- `dark.svg` and `light.svg` were hand-crafted with the same base64 embedded
-- If `pic-b64.txt` is missing, `make_info_card.py` extracts the base64 from the existing `info-card.svg`
-
-The base64 image is a circular-cropped PNG with soft alpha edges, embedded inside an SVG `<clipPath>` for the avatar circle.
+```
+pic.jpeg (original headshot)
+  │
+  ▼  rembg (u2net model — AI background removal)
+  │
+  ▼  PIL crop: top 88% height, center-width square
+  │
+  ▼  resize to 320×320 px (Lanczos)
+  │
+  ▼  circular alpha mask (Gaussian soft edge r=1.2)
+  │
+  ├─► pic-circle.png          (committed, used as source)
+  └─► scripts/pic-b64.txt     (data:image/png;base64,…)
+       │
+       └─► embedded in all SVGs as <image href="data:image/png;…"/>
+```
 
 ---
 

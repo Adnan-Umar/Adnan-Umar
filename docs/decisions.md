@@ -57,8 +57,8 @@
 ## DEC-07 — Standalone `make_info_card.py`
 
 **Decision:** Keep `make_info_card.py` as a standalone script with a fallback to extract base64 from existing `info-card.svg`.  
-**Alternatives considered:** Import shared builder from a separate `_build_svgs.py`.  
-**Reason:** `make_info_card.py` needs to be runnable independently to regenerate only the info card when profile data changes (new skill added, role update, etc.) without rebuilding the hero SVGs. Keeping it standalone honours the Single Responsibility Principle. The fallback ensures it works even without `scripts/pic-b64.txt`.
+**Alternatives considered:** Import shared builder from `_build_svgs.py`.  
+**Reason:** `_build_svgs.py` is a build-time script that reads `pic-b64.txt` and generates all three hero assets at once. `make_info_card.py` needs to be runnable independently to regenerate only the info card when profile data changes (new skill added, role update, etc.) without rebuilding the 280 KB of hero SVGs. Keeping them separate honours the Single Responsibility Principle. The fallback ensures it works even without `scripts/pic-b64.txt`.
 
 ---
 

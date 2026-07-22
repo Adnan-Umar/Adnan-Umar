@@ -20,17 +20,31 @@
 
 ## 2026-07-22 — Full Production Redesign
 
-### Hero SVG Banners
+### Photo Pipeline
 
-- Hand-crafted `dark.svg` (1180×610, ~141.7 KB):
-  - Circular photo with animated gradient ring
-  - Terminal-style right panel with code block, metric cards, what-I-ship cards
-  - SMIL animations: gradient shift, scanline, noise, particles, border shimmer, typing cursor
-- Hand-crafted `light.svg` (1180×610, ~141.7 KB):
-  - Same structure as dark, light colour tokens
-- Verified: photo embedded via base64 ✓, animations present ✓, SVG properly closed ✓
+- Installed `rembg[cpu]` (onnxruntime backend, downloaded u2net.onnx ~176 MB)
+- Wrote `scripts/_process_photo.py`:
+  - Uses rembg for AI background removal on `pic.jpeg`
+  - PIL circular crop, Gaussian soft edge
+  - Saves `pic-circle.png` (320×320, 85 KB)
+  - Saves `scripts/pic-b64.txt` (116,706 char base64 data URI)
+- Ran successfully; confirmed both output files present
 
-### Info Card
+### SVG Rebuild — Hero Banners
+
+- Wrote `scripts/_build_svgs.py` (43.8 KB) — full SVG assembler:
+  - `Theme` dataclass with dark/light colour token dictionaries
+  - `defs()` — all `<defs>`: gradients, filters (noise, glow, strongGlow), masks (scanline), clipPaths (photo, panels)
+  - `left_panel()` — photo ring glow, animated rotate ring, circular photo, name, role, info lines, skill pills (2 rows, 10 skills), social pills
+  - `right_panel()` — terminal titlebar, traffic lights, greeting, name, role, 4 metric cards, code block (8 lines Java), 3 "what I ship" cards, footer quote
+  - `particles()` — 8 floating particles across both panels
+  - `build_hero()` — assembles background + panels + particles + frame
+  - `build_info_card()` — initial info card version (superseded)
+- Generated:
+  - `dark.svg` — 141.7 KB, photo embedded ✓, animations ✓, properly closed ✓
+  - `light.svg` — 141.7 KB, photo embedded ✓, animations ✓, properly closed ✓
+
+### Info Card Rebuild
 
 - Rewrote `scripts/make_info_card.py` completely:
   - `Theme` dataclass (colour tokens, pill fill/stroke pairs)
@@ -59,7 +73,6 @@
   - Multi-selector strategy (`td[data-date]`, `rect[data-date]`)
   - Count extraction from `data-count`, `<title>`, and text
   - Proper User-Agent headers
-  - Successfully scraped 367 days of live contribution data
 - `scripts/render_heatmap_svg.py`:
   - 801×191 canvas with 53×7 grid aligned to Monday
   - Month/day labels, 6-level green ramp

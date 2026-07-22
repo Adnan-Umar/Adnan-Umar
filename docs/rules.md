@@ -52,9 +52,10 @@
 
 | Pattern | Convention |
 |:---|:---|
+| Build scripts (generate assets) | `_` prefix, e.g. `_build_svgs.py` |
+| One-time processing | `_process_noun.py`, e.g. `_process_photo.py` |
 | Data scripts (fetch/process data) | `verb_noun.py`, e.g. `fetch_contributions.py` |
 | Make scripts (regenerate single asset) | `make_asset.py`, e.g. `make_info_card.py` |
-| Utility scripts | `prep_photo.py`, `make_ascii_svg.py` |
 
 ---
 
