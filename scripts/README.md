@@ -1,0 +1,45 @@
+# Profile Art Scripts
+
+## Overview
+This folder contains Python scripts that generate the animated SVG assets for the GitHub profile.
+
+## Scripts
+
+### `prep_photo.py`
+Removes background and boosts local contrast from a source photo.
+```bash
+python scripts/prep_photo.py source-photo.jpg
+```
+Outputs `source-prepped.png`.
+
+### `make_ascii_svg.py`
+Converts a prep photo into an animated monochrome ASCII SVG.
+```bash
+python scripts/make_ascii_svg.py source-prepped.png ascii-art.svg
+```
+
+### `make_info_card.py`
+Generates a neofetch-style terminal info card.
+```bash
+python scripts/make_info_card.py
+```
+Outputs `info-card.svg`.
+
+### `fetch_contributions.py`
+Scrapes public GitHub contribution data without a token.
+```bash
+python scripts/fetch_contributions.py Adnan-Umar
+```
+Outputs `data/contributions.json`.
+
+### `render_heatmap_svg.py`
+Renders the contribution JSON as an animated heatmap.
+```bash
+python scripts/render_heatmap_svg.py
+```
+Outputs `contrib-heatmap.svg`.
+
+## Notes
+- `rembg` downloads ML models on first run (~300 MB).
+- The daily GitHub Actions workflow only requires `requests` and `beautifulsoup4`.
+- Photo-based scripts require `Pillow`, `numpy`, `opencv-python`, and `rembg`.
