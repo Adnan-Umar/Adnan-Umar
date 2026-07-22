@@ -247,12 +247,6 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 <div align="center">
 
-<img src="./monthly-heatmap.svg" width="60%" alt="Last 28 days contribution heatmap" />
-
-</div>
-
-<div align="center">
-
 <img src="./contribution-chart.svg" width="100%" alt="Daily contribution bar chart" />
 
 </div>
