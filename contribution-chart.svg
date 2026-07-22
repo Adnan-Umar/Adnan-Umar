@@ -32,96 +32,100 @@
 </g>
 <rect x="40" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.0s"/>
+</rect>
 <rect x="66" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.02s"/>
+</rect>
 <rect x="92" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.04s"/>
+</rect>
 <rect x="118" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.06s"/>
+</rect>
 <rect x="144" y="123.33333333333333" width="25" height="66.66666666666667" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.08s"/>
-<rect x="144" y="123.33333333333333" width="25" height="66.66666666666667" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;66.66666666666667" dur="0.5s" fill="freeze" begin="0.08s"/>
 <animate attributeName="y" values="190;123.33333333333333" dur="0.5s" fill="freeze" begin="0.08s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.08s"/>
 </rect>
 <rect x="170" y="136.66666666666669" width="25" height="53.33333333333333" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.1s"/>
-<rect x="170" y="136.66666666666669" width="25" height="53.33333333333333" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;53.33333333333333" dur="0.5s" fill="freeze" begin="0.1s"/>
 <animate attributeName="y" values="190;136.66666666666669" dur="0.5s" fill="freeze" begin="0.1s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.1s"/>
 </rect>
 <rect x="196" y="56.66666666666666" width="25" height="133.33333333333334" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.12s"/>
-<rect x="196" y="56.66666666666666" width="25" height="133.33333333333334" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;133.33333333333334" dur="0.5s" fill="freeze" begin="0.12s"/>
 <animate attributeName="y" values="190;56.66666666666666" dur="0.5s" fill="freeze" begin="0.12s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.12s"/>
 </rect>
 <rect x="222" y="150.0" width="25" height="40.0" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.14s"/>
-<rect x="222" y="150.0" width="25" height="40.0" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;40.0" dur="0.5s" fill="freeze" begin="0.14s"/>
 <animate attributeName="y" values="190;150.0" dur="0.5s" fill="freeze" begin="0.14s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.14s"/>
 </rect>
 <rect x="248" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.16s"/>
+</rect>
 <rect x="274" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.18s"/>
+</rect>
 <rect x="300" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.2s"/>
+</rect>
 <rect x="326" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.22s"/>
+</rect>
 <rect x="352" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.24s"/>
+</rect>
 <rect x="378" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.26s"/>
+</rect>
 <rect x="404" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.28s"/>
+</rect>
 <rect x="430" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.3s"/>
+</rect>
 <rect x="456" y="30.0" width="25" height="160.0" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.32s"/>
-<rect x="456" y="30.0" width="25" height="160.0" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;160.0" dur="0.5s" fill="freeze" begin="0.32s"/>
 <animate attributeName="y" values="190;30.0" dur="0.5s" fill="freeze" begin="0.32s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.32s"/>
 </rect>
 <rect x="482" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.34s"/>
+</rect>
 <rect x="508" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.36s"/>
+</rect>
 <rect x="534" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.38s"/>
+</rect>
 <rect x="560" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.4s"/>
+</rect>
 <rect x="586" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.42s"/>
+</rect>
 <rect x="612" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.44s"/>
+</rect>
 <rect x="638" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.46s"/>
-<rect x="638" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.46s"/>
 <animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.46s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.46s"/>
 </rect>
 <rect x="664" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.48s"/>
+</rect>
 <rect x="690" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.5s"/>
+</rect>
 <rect x="716" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.52s"/>
-<rect x="716" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.52s"/>
 <animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.52s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.52s"/>
 </rect>
 <rect x="742" y="83.33333333333334" width="25" height="106.66666666666666" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.54s"/>
-<rect x="742" y="83.33333333333334" width="25" height="106.66666666666666" rx="2" fill="url(#barGrad)" opacity="0.15">
 <animate attributeName="height" values="0;106.66666666666666" dur="0.5s" fill="freeze" begin="0.54s"/>
 <animate attributeName="y" values="190;83.33333333333334" dur="0.5s" fill="freeze" begin="0.54s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.54s"/>

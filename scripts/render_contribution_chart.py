@@ -98,13 +98,15 @@ def render(input_path: str = "data/contributions.json",
         bar_h = (val / max_val) * chart_h if max_val > 0 else 0
         y = pad_top + chart_h - bar_h
         delay = round(i * 0.02, 3)
-        w(f'<rect x="{x}" y="{y}" width="{bar_w}" height="{bar_h}" rx="2" fill="url(#barGrad)" opacity="0">')
-        w(f'<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="{delay}s"/>')
         if val > 0:
-            w(f'<rect x="{x}" y="{y}" width="{bar_w}" height="{bar_h}" rx="2" fill="url(#barGrad)" opacity="0.15">')
+            w(f'<rect x="{x}" y="{y}" width="{bar_w}" height="{bar_h}" rx="2" fill="url(#barGrad)" opacity="0">')
             w(f'<animate attributeName="height" values="0;{bar_h}" dur="0.5s" fill="freeze" begin="{delay}s"/>')
             w(f'<animate attributeName="y" values="{pad_top + chart_h};{y}" dur="0.5s" fill="freeze" begin="{delay}s"/>')
-            w('<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="' + str(delay) + 's"/>')
+            w(f'<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="{delay}s"/>')
+            w('</rect>')
+        else:
+            w(f'<rect x="{x}" y="{y}" width="{bar_w}" height="{bar_h}" rx="2" fill="url(#barGrad)" opacity="0">')
+            w(f'<animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="{delay}s"/>')
             w('</rect>')
 
     # X-axis labels (every 3rd day)
