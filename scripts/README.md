@@ -48,6 +48,17 @@ python scripts/render_stats_card.py
 ```
 Outputs `github-stats.svg` and `github-streak.svg`.
 
+### `render_top_languages.py`
+Generates a self-contained "Top Languages" card SVG from the GitHub API
+(stdlib only, no third-party dependency). Replaces the external
+`github-readme-stats` top-langs service (which suffers from rate-limiting /
+500 errors). Top 8 languages are shown with byte counts and percentages.
+```bash
+python scripts/render_top_languages.py
+python scripts/render_top_languages.py Adnan-Umar top-languages.svg
+```
+Outputs `top-languages.svg`.
+
 ## Notes
 - `rembg` downloads ML models on first run (~300 MB).
 - The daily GitHub Actions workflow only requires `requests` and `beautifulsoup4`.
