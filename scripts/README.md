@@ -39,6 +39,15 @@ python scripts/render_heatmap_svg.py
 ```
 Outputs `contrib-heatmap.svg`.
 
+### `render_stats_card.py`
+Generates self-contained GitHub stats + streak card SVGs from
+`data/contributions.json`. Replaces the external `github-profile-summary-cards`
+and `streak-stats` services (which suffer from rate-limiting / 500 errors).
+```bash
+python scripts/render_stats_card.py
+```
+Outputs `github-stats.svg` and `github-streak.svg`.
+
 ## Notes
 - `rembg` downloads ML models on first run (~300 MB).
 - The daily GitHub Actions workflow only requires `requests` and `beautifulsoup4`.

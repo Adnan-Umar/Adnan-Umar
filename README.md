@@ -206,16 +206,26 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adnan-Umar&theme=tokyonight" width="100%" alt="Profile summary" />
+<img src="./github-stats.svg" width="100%" alt="GitHub Stats" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Stats" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Repos per language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Commit language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Adnan-Umar&theme=tokyonight" height="175em" alt="Productive time" />
+<img src="https://github-readme-stats-eight.vercel.app/api?username=Adnan-Umar&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Stats" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=Adnan-Umar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="175em" alt="Top Languages" />
+<img src="https://github-readme-stats-eight.vercel.app/api?username=Adnan-Umar&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&hide=contribs,prs" height="175em" alt="Stats" />
+
+</div>
+
+<div align="center">
+
+<img src="./github-streak.svg" width="100%" alt="GitHub Streak" />
 
 </div>
 
