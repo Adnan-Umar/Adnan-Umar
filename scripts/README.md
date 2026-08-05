@@ -39,6 +39,15 @@ python scripts/render_heatmap_svg.py
 ```
 Outputs `contrib-heatmap.svg`.
 
+### `render_contribution_month.py`
+Renders a self-contained "Last 30 Days" contribution detail bar chart from
+`data/contributions.json`. Replaces the external `github-readme-activity-graph`
+service (which suffers from outages / rate-limiting).
+```bash
+python scripts/render_contribution_month.py
+```
+Outputs `contribution-month.svg`.
+
 ### `render_stats_card.py`
 Generates self-contained GitHub stats + streak card SVGs from
 `data/contributions.json`. Replaces the external `github-profile-summary-cards`

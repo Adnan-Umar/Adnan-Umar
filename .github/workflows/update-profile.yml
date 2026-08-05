@@ -23,7 +23,8 @@ jobs:
       - run: python scripts/render_heatmap_svg.py
       - run: python scripts/render_stats_card.py data/contributions.json github-stats.svg github-streak.svg
       - run: python scripts/render_top_languages.py Adnan-Umar top-languages.svg
+      - run: python scripts/render_contribution_month.py data/contributions.json contribution-month.svg
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg github-stats.svg github-streak.svg top-languages.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg github-stats.svg github-streak.svg top-languages.svg contribution-month.svg"

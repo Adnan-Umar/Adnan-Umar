@@ -260,6 +260,12 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 </div>
 
+<div align="center">
+
+<img src="./contribution-month.svg" width="100%" alt="Last 30 days contribution detail" />
+
+</div>
+
 ---
 
 ## `$ cat achievements.md`
