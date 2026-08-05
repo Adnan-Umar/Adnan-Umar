@@ -15,31 +15,31 @@
 <text x="796" y="32" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#565f89" text-anchor="end">tokyonight</text>
 <line x1="24" y1="44" x2="796" y2="44" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
 <text x="24" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a9b1d6">Java</text>
-<text x="796" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">385K · 32.8%</text>
+<text x="796" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">385K · 32.6%</text>
 <rect x="24" y="76" width="772" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
 <rect x="24" y="76" width="0" height="6" rx="3" fill="#7aa2f7">
-<animate attributeName="width" values="0;252;252" dur="1s" begin="0.0s" fill="freeze"/>
+<animate attributeName="width" values="0;251;251" dur="1s" begin="0.0s" fill="freeze"/>
 </rect>
 <text x="24" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a9b1d6">TypeScript</text>
-<text x="796" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">311K · 26.5%</text>
+<text x="796" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">311K · 26.4%</text>
 <rect x="24" y="114" width="772" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
 <rect x="24" y="114" width="0" height="6" rx="3" fill="#bb9af7">
-<animate attributeName="width" values="0;204;204" dur="1s" begin="0.12s" fill="freeze"/>
+<animate attributeName="width" values="0;203;203" dur="1s" begin="0.12s" fill="freeze"/>
 </rect>
 <text x="24" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a9b1d6">JavaScript</text>
-<text x="796" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">234K · 20.0%</text>
+<text x="796" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">234K · 19.9%</text>
 <rect x="24" y="152" width="772" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
 <rect x="24" y="152" width="0" height="6" rx="3" fill="#9ece6a">
-<animate attributeName="width" values="0;154;154" dur="1s" begin="0.24s" fill="freeze"/>
+<animate attributeName="width" values="0;153;153" dur="1s" begin="0.24s" fill="freeze"/>
 </rect>
 <text x="24" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a9b1d6">Python</text>
-<text x="796" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">200K · 17.1%</text>
+<text x="796" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">206K · 17.4%</text>
 <rect x="24" y="190" width="772" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
 <rect x="24" y="190" width="0" height="6" rx="3" fill="#e0af68">
-<animate attributeName="width" values="0;131;131" dur="1s" begin="0.36s" fill="freeze"/>
+<animate attributeName="width" values="0;134;134" dur="1s" begin="0.36s" fill="freeze"/>
 </rect>
 <text x="24" y="220" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a9b1d6">CSS</text>
-<text x="796" y="220" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">25K · 2.2%</text>
+<text x="796" y="220" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#565f89" text-anchor="end">25K · 2.1%</text>
 <rect x="24" y="228" width="772" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
 <rect x="24" y="228" width="0" height="6" rx="3" fill="#f7768e">
 <animate attributeName="width" values="0;16;16" dur="1s" begin="0.48s" fill="freeze"/>

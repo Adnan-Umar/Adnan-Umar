@@ -21,7 +21,9 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/fetch_contributions.py Adnan-Umar
       - run: python scripts/render_heatmap_svg.py
+      - run: python scripts/render_stats_card.py data/contributions.json github-stats.svg github-streak.svg
+      - run: python scripts/render_top_languages.py Adnan-Umar top-languages.svg
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg github-stats.svg github-streak.svg top-languages.svg"
