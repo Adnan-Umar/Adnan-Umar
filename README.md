@@ -212,14 +212,7 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight.vercel.app/api?username=Adnan-Umar&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Stats" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=Adnan-Umar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="175em" alt="Top Languages" />
-<img src="https://github-readme-stats-eight.vercel.app/api?username=Adnan-Umar&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&hide=contribs,prs" height="175em" alt="Stats" />
+<img src="./top-languages.svg" width="100%" alt="Top Languages" />
 
 </div>
 
