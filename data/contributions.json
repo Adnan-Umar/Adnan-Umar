@@ -1,6 +1,6 @@
 {
   "username": "Adnan-Umar",
-  "total": 747,
+  "total": 752,
   "best_day": {
     "date": "2026-06-24",
     "count": 54,
@@ -1839,7 +1839,12 @@
     },
     {
       "date": "2026-08-04",
-      "count": 2,
+      "count": 6,
+      "level": 1
+    },
+    {
+      "date": "2026-08-05",
+      "count": 1,
       "level": 1
     }
   ]
