@@ -228,6 +228,12 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 
 </div>
 
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=Adnan-Umar&theme=tokyonight&hide_border=true&mode=weekly" alt="Weekly GitHub Streak" />
+
+</div>
+
 ---
 
 ## `$ cat contribution-graph.md`
@@ -300,7 +306,7 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 | **2024** | Distributed systems deep-dive | Apache Kafka · Kubernetes · event-driven architecture |
 | **2024 – Present** | Independent Consulting | Client engagements · microservices · Spring Boot · cloud deployments |
 | **2025** | AI integration | Spring AI · OpenAI APIs · intelligent backend services |
-| **2025** | Final year thesis | System design at scale · cloud-native observability |
+| **2026** | Final year thesis | System design at scale · cloud-native observability |
 
 </div>
 
