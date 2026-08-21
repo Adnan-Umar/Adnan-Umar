@@ -10,7 +10,10 @@ Usage:
 """
 
 import json
+import os
 import sys
+import time
+import urllib.error
 import urllib.request
 
 # Tokyonight theme palette (matches render_stats_card.py)
@@ -29,10 +32,26 @@ _HEADERS = {
 }
 
 
-def _get_json(url: str) -> dict:
-    req = urllib.request.Request(url, headers=_HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def _get_json(url: str, retries: int = 3) -> dict:
+    """GET a JSON URL. Uses GITHUB_TOKEN/GH_TOKEN when available (5000 req/hr
+    instead of the 60 req/hr anonymous limit shared per runner IP)."""
+    headers = dict(_HEADERS)
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    last_err: Exception | None = None
+    for attempt in range(retries):
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            last_err = exc
+            if exc.code in (403, 429) and attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))  # back off on rate limiting
+                continue
+            raise
+    raise last_err  # pragma: no cover
 
 
 def fetch_language_bytes(username: str, max_repos: int = 200) -> dict:
@@ -144,4 +163,13 @@ def render_top_languages(username: str, output_path: str) -> None:
 if __name__ == "__main__":
     username = sys.argv[1] if len(sys.argv) > 1 else "Adnan-Umar"
     out = sys.argv[2] if len(sys.argv) > 2 else "top-languages.svg"
-    render_top_languages(username, out)
+    try:
+        render_top_languages(username, out)
+    except Exception as exc:
+        # Fail soft in CI: keep the previous SVG instead of breaking the
+        # rest of the daily pipeline (month/chart/line-graph + auto-commit).
+        print(
+            f"WARN: could not refresh top languages ({exc}); keeping existing {out}",
+            file=sys.stderr,
+        )
+        sys.exit(0)

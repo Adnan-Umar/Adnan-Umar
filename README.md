@@ -17,6 +17,14 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://adnan-portfolio-lykp.onrender.com/)
 &nbsp;
 [![Email](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adnanmd0786@gmail.com)
+&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=Adnan-Umar&label=Profile+Views&color=7aa2f7&style=for-the-badge)
+
+</div>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=650&lines=Backend+Engineer;Spring+Boot+%2B+Kafka+Microservices;Kubernetes+%2B+Cloud+Native;Spring+AI+%2B+OpenAI+Integrations" alt="Typing animation" />
 
 </div>
 
@@ -225,12 +233,6 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 <div align="center">
 
 <img src="https://streak-stats.demolab.com/?user=Adnan-Umar&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=Adnan-Umar&theme=tokyonight&hide_border=true&mode=weekly" alt="Weekly GitHub Streak" />
 
 </div>
 

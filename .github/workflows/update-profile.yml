@@ -23,6 +23,8 @@ jobs:
       - run: python scripts/render_heatmap_svg.py
       - run: python scripts/render_stats_card.py data/contributions.json github-stats.svg github-streak.svg
       - run: python scripts/render_top_languages.py Adnan-Umar top-languages.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: python scripts/render_contribution_month.py data/contributions.json contribution-month.svg
       - run: python scripts/render_contribution_chart.py data/contributions.json contribution-chart.svg
       - run: python scripts/render_contribution_line_graph.py data/contributions.json contribution-line-graph.svg
