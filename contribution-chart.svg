@@ -22,165 +22,165 @@
 <text x="400" y="18" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e" text-anchor="middle">Daily Contributions — Last 28 Days</text>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e" text-anchor="end">
   <text x="34" y="193.0">0</text>
-  <text x="34" y="159.31578947368422">4</text>
-  <line x1="40" y1="156.31578947368422" x2="780" y2="156.31578947368422" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-  <text x="34" y="117.21052631578948">9</text>
-  <line x1="40" y1="114.21052631578948" x2="780" y2="114.21052631578948" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-  <text x="34" y="75.10526315789474">14</text>
-  <line x1="40" y1="72.10526315789474" x2="780" y2="72.10526315789474" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-  <text x="34" y="33.0">19</text>
+  <text x="34" y="158.2173913043478">5</text>
+  <line x1="40" y1="155.2173913043478" x2="780" y2="155.2173913043478" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="34" y="116.47826086956522">11</text>
+  <line x1="40" y1="113.47826086956522" x2="780" y2="113.47826086956522" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="34" y="74.73913043478262">17</text>
+  <line x1="40" y1="71.73913043478262" x2="780" y2="71.73913043478262" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="34" y="33.0">23</text>
 </g>
-<rect x="40" y="114.21052631578948" width="25" height="75.78947368421052" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;75.78947368421052" dur="0.5s" fill="freeze" begin="0.0s"/>
-<animate attributeName="y" values="190;114.21052631578948" dur="0.5s" fill="freeze" begin="0.0s"/>
+<rect x="40" y="183.04347826086956" width="25" height="6.956521739130435" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;6.956521739130435" dur="0.5s" fill="freeze" begin="0.0s"/>
+<animate attributeName="y" values="190;183.04347826086956" dur="0.5s" fill="freeze" begin="0.0s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.0s"/>
 </rect>
-<rect x="66" y="181.57894736842104" width="25" height="8.421052631578947" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;8.421052631578947" dur="0.5s" fill="freeze" begin="0.02s"/>
-<animate attributeName="y" values="190;181.57894736842104" dur="0.5s" fill="freeze" begin="0.02s"/>
+<rect x="66" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.02s"/>
+<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.02s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.02s"/>
 </rect>
-<rect x="92" y="173.1578947368421" width="25" height="16.842105263157894" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;16.842105263157894" dur="0.5s" fill="freeze" begin="0.04s"/>
-<animate attributeName="y" values="190;173.1578947368421" dur="0.5s" fill="freeze" begin="0.04s"/>
+<rect x="92" y="162.17391304347825" width="25" height="27.82608695652174" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;27.82608695652174" dur="0.5s" fill="freeze" begin="0.04s"/>
+<animate attributeName="y" values="190;162.17391304347825" dur="0.5s" fill="freeze" begin="0.04s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.04s"/>
 </rect>
-<rect x="118" y="156.31578947368422" width="25" height="33.68421052631579" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;33.68421052631579" dur="0.5s" fill="freeze" begin="0.06s"/>
-<animate attributeName="y" values="190;156.31578947368422" dur="0.5s" fill="freeze" begin="0.06s"/>
+<rect x="118" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.06s"/>
+<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.06s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.06s"/>
 </rect>
-<rect x="144" y="173.1578947368421" width="25" height="16.842105263157894" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;16.842105263157894" dur="0.5s" fill="freeze" begin="0.08s"/>
-<animate attributeName="y" values="190;173.1578947368421" dur="0.5s" fill="freeze" begin="0.08s"/>
+<rect x="144" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.08s"/>
+<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.08s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.08s"/>
 </rect>
-<rect x="170" y="173.1578947368421" width="25" height="16.842105263157894" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;16.842105263157894" dur="0.5s" fill="freeze" begin="0.1s"/>
-<animate attributeName="y" values="190;173.1578947368421" dur="0.5s" fill="freeze" begin="0.1s"/>
+<rect x="170" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.1s"/>
+<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.1s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.1s"/>
 </rect>
-<rect x="196" y="173.1578947368421" width="25" height="16.842105263157894" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;16.842105263157894" dur="0.5s" fill="freeze" begin="0.12s"/>
-<animate attributeName="y" values="190;173.1578947368421" dur="0.5s" fill="freeze" begin="0.12s"/>
+<rect x="196" y="148.26086956521738" width="25" height="41.73913043478261" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;41.73913043478261" dur="0.5s" fill="freeze" begin="0.12s"/>
+<animate attributeName="y" values="190;148.26086956521738" dur="0.5s" fill="freeze" begin="0.12s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.12s"/>
 </rect>
-<rect x="222" y="139.4736842105263" width="25" height="50.526315789473685" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;50.526315789473685" dur="0.5s" fill="freeze" begin="0.14s"/>
-<animate attributeName="y" values="190;139.4736842105263" dur="0.5s" fill="freeze" begin="0.14s"/>
+<rect x="222" y="141.30434782608694" width="25" height="48.69565217391305" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;48.69565217391305" dur="0.5s" fill="freeze" begin="0.14s"/>
+<animate attributeName="y" values="190;141.30434782608694" dur="0.5s" fill="freeze" begin="0.14s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.14s"/>
 </rect>
-<rect x="248" y="131.05263157894737" width="25" height="58.94736842105263" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;58.94736842105263" dur="0.5s" fill="freeze" begin="0.16s"/>
-<animate attributeName="y" values="190;131.05263157894737" dur="0.5s" fill="freeze" begin="0.16s"/>
+<rect x="248" y="155.2173913043478" width="25" height="34.78260869565217" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;34.78260869565217" dur="0.5s" fill="freeze" begin="0.16s"/>
+<animate attributeName="y" values="190;155.2173913043478" dur="0.5s" fill="freeze" begin="0.16s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.16s"/>
 </rect>
-<rect x="274" y="147.89473684210526" width="25" height="42.10526315789473" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;42.10526315789473" dur="0.5s" fill="freeze" begin="0.18s"/>
-<animate attributeName="y" values="190;147.89473684210526" dur="0.5s" fill="freeze" begin="0.18s"/>
+<rect x="274" y="134.34782608695653" width="25" height="55.65217391304348" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;55.65217391304348" dur="0.5s" fill="freeze" begin="0.18s"/>
+<animate attributeName="y" values="190;134.34782608695653" dur="0.5s" fill="freeze" begin="0.18s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.18s"/>
 </rect>
-<rect x="300" y="122.63157894736842" width="25" height="67.36842105263158" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;67.36842105263158" dur="0.5s" fill="freeze" begin="0.2s"/>
-<animate attributeName="y" values="190;122.63157894736842" dur="0.5s" fill="freeze" begin="0.2s"/>
+<rect x="300" y="162.17391304347825" width="25" height="27.82608695652174" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;27.82608695652174" dur="0.5s" fill="freeze" begin="0.2s"/>
+<animate attributeName="y" values="190;162.17391304347825" dur="0.5s" fill="freeze" begin="0.2s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.2s"/>
 </rect>
-<rect x="326" y="156.31578947368422" width="25" height="33.68421052631579" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;33.68421052631579" dur="0.5s" fill="freeze" begin="0.22s"/>
-<animate attributeName="y" values="190;156.31578947368422" dur="0.5s" fill="freeze" begin="0.22s"/>
+<rect x="326" y="183.04347826086956" width="25" height="6.956521739130435" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;6.956521739130435" dur="0.5s" fill="freeze" begin="0.22s"/>
+<animate attributeName="y" values="190;183.04347826086956" dur="0.5s" fill="freeze" begin="0.22s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.22s"/>
 </rect>
-<rect x="352" y="181.57894736842104" width="25" height="8.421052631578947" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;8.421052631578947" dur="0.5s" fill="freeze" begin="0.24s"/>
-<animate attributeName="y" values="190;181.57894736842104" dur="0.5s" fill="freeze" begin="0.24s"/>
+<rect x="352" y="162.17391304347825" width="25" height="27.82608695652174" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;27.82608695652174" dur="0.5s" fill="freeze" begin="0.24s"/>
+<animate attributeName="y" values="190;162.17391304347825" dur="0.5s" fill="freeze" begin="0.24s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.24s"/>
 </rect>
-<rect x="378" y="156.31578947368422" width="25" height="33.68421052631579" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;33.68421052631579" dur="0.5s" fill="freeze" begin="0.26s"/>
-<animate attributeName="y" values="190;156.31578947368422" dur="0.5s" fill="freeze" begin="0.26s"/>
+<rect x="378" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.26s"/>
+<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.26s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.26s"/>
 </rect>
-<rect x="404" y="173.1578947368421" width="25" height="16.842105263157894" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;16.842105263157894" dur="0.5s" fill="freeze" begin="0.28s"/>
-<animate attributeName="y" values="190;173.1578947368421" dur="0.5s" fill="freeze" begin="0.28s"/>
+<rect x="404" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.28s"/>
+<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.28s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.28s"/>
 </rect>
-<rect x="430" y="173.1578947368421" width="25" height="16.842105263157894" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;16.842105263157894" dur="0.5s" fill="freeze" begin="0.3s"/>
-<animate attributeName="y" values="190;173.1578947368421" dur="0.5s" fill="freeze" begin="0.3s"/>
+<rect x="430" y="127.3913043478261" width="25" height="62.608695652173914" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;62.608695652173914" dur="0.5s" fill="freeze" begin="0.3s"/>
+<animate attributeName="y" values="190;127.3913043478261" dur="0.5s" fill="freeze" begin="0.3s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.3s"/>
 </rect>
-<rect x="456" y="114.21052631578948" width="25" height="75.78947368421052" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;75.78947368421052" dur="0.5s" fill="freeze" begin="0.32s"/>
-<animate attributeName="y" values="190;114.21052631578948" dur="0.5s" fill="freeze" begin="0.32s"/>
+<rect x="456" y="127.3913043478261" width="25" height="62.608695652173914" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;62.608695652173914" dur="0.5s" fill="freeze" begin="0.32s"/>
+<animate attributeName="y" values="190;127.3913043478261" dur="0.5s" fill="freeze" begin="0.32s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.32s"/>
 </rect>
-<rect x="482" y="114.21052631578948" width="25" height="75.78947368421052" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;75.78947368421052" dur="0.5s" fill="freeze" begin="0.34s"/>
-<animate attributeName="y" values="190;114.21052631578948" dur="0.5s" fill="freeze" begin="0.34s"/>
+<rect x="482" y="148.26086956521738" width="25" height="41.73913043478261" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;41.73913043478261" dur="0.5s" fill="freeze" begin="0.34s"/>
+<animate attributeName="y" values="190;148.26086956521738" dur="0.5s" fill="freeze" begin="0.34s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.34s"/>
 </rect>
-<rect x="508" y="139.4736842105263" width="25" height="50.526315789473685" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;50.526315789473685" dur="0.5s" fill="freeze" begin="0.36s"/>
-<animate attributeName="y" values="190;139.4736842105263" dur="0.5s" fill="freeze" begin="0.36s"/>
+<rect x="508" y="169.1304347826087" width="25" height="20.869565217391305" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;20.869565217391305" dur="0.5s" fill="freeze" begin="0.36s"/>
+<animate attributeName="y" values="190;169.1304347826087" dur="0.5s" fill="freeze" begin="0.36s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.36s"/>
 </rect>
-<rect x="534" y="164.73684210526315" width="25" height="25.263157894736842" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;25.263157894736842" dur="0.5s" fill="freeze" begin="0.38s"/>
-<animate attributeName="y" values="190;164.73684210526315" dur="0.5s" fill="freeze" begin="0.38s"/>
+<rect x="534" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.38s"/>
+<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.38s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.38s"/>
 </rect>
-<rect x="560" y="173.1578947368421" width="25" height="16.842105263157894" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;16.842105263157894" dur="0.5s" fill="freeze" begin="0.4s"/>
-<animate attributeName="y" values="190;173.1578947368421" dur="0.5s" fill="freeze" begin="0.4s"/>
+<rect x="560" y="155.2173913043478" width="25" height="34.78260869565217" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;34.78260869565217" dur="0.5s" fill="freeze" begin="0.4s"/>
+<animate attributeName="y" values="190;155.2173913043478" dur="0.5s" fill="freeze" begin="0.4s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.4s"/>
 </rect>
-<rect x="586" y="147.89473684210526" width="25" height="42.10526315789473" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;42.10526315789473" dur="0.5s" fill="freeze" begin="0.42s"/>
-<animate attributeName="y" values="190;147.89473684210526" dur="0.5s" fill="freeze" begin="0.42s"/>
+<rect x="586" y="162.17391304347825" width="25" height="27.82608695652174" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;27.82608695652174" dur="0.5s" fill="freeze" begin="0.42s"/>
+<animate attributeName="y" values="190;162.17391304347825" dur="0.5s" fill="freeze" begin="0.42s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.42s"/>
 </rect>
-<rect x="612" y="156.31578947368422" width="25" height="33.68421052631579" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;33.68421052631579" dur="0.5s" fill="freeze" begin="0.44s"/>
-<animate attributeName="y" values="190;156.31578947368422" dur="0.5s" fill="freeze" begin="0.44s"/>
+<rect x="612" y="183.04347826086956" width="25" height="6.956521739130435" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;6.956521739130435" dur="0.5s" fill="freeze" begin="0.44s"/>
+<animate attributeName="y" values="190;183.04347826086956" dur="0.5s" fill="freeze" begin="0.44s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.44s"/>
 </rect>
-<rect x="638" y="181.57894736842104" width="25" height="8.421052631578947" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;8.421052631578947" dur="0.5s" fill="freeze" begin="0.46s"/>
-<animate attributeName="y" values="190;181.57894736842104" dur="0.5s" fill="freeze" begin="0.46s"/>
+<rect x="638" y="183.04347826086956" width="25" height="6.956521739130435" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;6.956521739130435" dur="0.5s" fill="freeze" begin="0.46s"/>
+<animate attributeName="y" values="190;183.04347826086956" dur="0.5s" fill="freeze" begin="0.46s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.46s"/>
 </rect>
-<rect x="664" y="181.57894736842104" width="25" height="8.421052631578947" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;8.421052631578947" dur="0.5s" fill="freeze" begin="0.48s"/>
-<animate attributeName="y" values="190;181.57894736842104" dur="0.5s" fill="freeze" begin="0.48s"/>
+<rect x="664" y="183.04347826086956" width="25" height="6.956521739130435" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;6.956521739130435" dur="0.5s" fill="freeze" begin="0.48s"/>
+<animate attributeName="y" values="190;183.04347826086956" dur="0.5s" fill="freeze" begin="0.48s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.48s"/>
 </rect>
-<rect x="690" y="181.57894736842104" width="25" height="8.421052631578947" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;8.421052631578947" dur="0.5s" fill="freeze" begin="0.5s"/>
-<animate attributeName="y" values="190;181.57894736842104" dur="0.5s" fill="freeze" begin="0.5s"/>
+<rect x="690" y="155.2173913043478" width="25" height="34.78260869565217" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;34.78260869565217" dur="0.5s" fill="freeze" begin="0.5s"/>
+<animate attributeName="y" values="190;155.2173913043478" dur="0.5s" fill="freeze" begin="0.5s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.5s"/>
 </rect>
-<rect x="716" y="147.89473684210526" width="25" height="42.10526315789473" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;42.10526315789473" dur="0.5s" fill="freeze" begin="0.52s"/>
-<animate attributeName="y" values="190;147.89473684210526" dur="0.5s" fill="freeze" begin="0.52s"/>
+<rect x="716" y="30.0" width="25" height="160.0" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;160.0" dur="0.5s" fill="freeze" begin="0.52s"/>
+<animate attributeName="y" values="190;30.0" dur="0.5s" fill="freeze" begin="0.52s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.52s"/>
 </rect>
-<rect x="742" y="30.0" width="25" height="160.0" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;160.0" dur="0.5s" fill="freeze" begin="0.54s"/>
-<animate attributeName="y" values="190;30.0" dur="0.5s" fill="freeze" begin="0.54s"/>
+<rect x="742" y="127.3913043478261" width="25" height="62.608695652173914" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;62.608695652173914" dur="0.5s" fill="freeze" begin="0.54s"/>
+<animate attributeName="y" values="190;127.3913043478261" dur="0.5s" fill="freeze" begin="0.54s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.54s"/>
 </rect>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e" text-anchor="middle">
-  <text x="52.5" y="202">Aug 05</text>
-  <text x="130.5" y="202">Aug 08</text>
-  <text x="208.5" y="202">Aug 11</text>
-  <text x="286.5" y="202">Aug 14</text>
-  <text x="364.5" y="202">Aug 17</text>
-  <text x="442.5" y="202">Aug 20</text>
-  <text x="520.5" y="202">Aug 23</text>
-  <text x="598.5" y="202">Aug 26</text>
-  <text x="676.5" y="202">Aug 29</text>
-  <text x="754.5" y="202">Sep 01</text>
+  <text x="52.5" y="202">Aug 06</text>
+  <text x="130.5" y="202">Aug 09</text>
+  <text x="208.5" y="202">Aug 12</text>
+  <text x="286.5" y="202">Aug 15</text>
+  <text x="364.5" y="202">Aug 18</text>
+  <text x="442.5" y="202">Aug 21</text>
+  <text x="520.5" y="202">Aug 24</text>
+  <text x="598.5" y="202">Aug 27</text>
+  <text x="676.5" y="202">Aug 30</text>
+  <text x="754.5" y="202">Sep 02</text>
 </g>
-<text x="40" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">126 contributions in the last 28 days</text>
+<text x="40" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">130 contributions in the last 28 days</text>
 </svg>
