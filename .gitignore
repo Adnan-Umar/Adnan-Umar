@@ -34,6 +34,7 @@ yarn-error.log*
 # OS
 Thumbs.db
 desktop.ini
+.postqodo
 
 # Generated assets — base64 photo (large, reproducible from pic-circle.png)
 scripts/pic-b64.txt
