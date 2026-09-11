@@ -165,9 +165,9 @@
 <animate attributeName="y" values="190;155.2173913043478" dur="0.5s" fill="freeze" begin="0.52s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.52s"/>
 </rect>
-<rect x="742" y="176.08695652173913" width="25" height="13.91304347826087" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;13.91304347826087" dur="0.5s" fill="freeze" begin="0.54s"/>
-<animate attributeName="y" values="190;176.08695652173913" dur="0.5s" fill="freeze" begin="0.54s"/>
+<rect x="742" y="155.2173913043478" width="25" height="34.78260869565217" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;34.78260869565217" dur="0.5s" fill="freeze" begin="0.54s"/>
+<animate attributeName="y" values="190;155.2173913043478" dur="0.5s" fill="freeze" begin="0.54s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.54s"/>
 </rect>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e" text-anchor="middle">
@@ -182,5 +182,5 @@
   <text x="676.5" y="202">Sep 08</text>
   <text x="754.5" y="202">Sep 11</text>
 </g>
-<text x="40" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">148 contributions in the last 28 days</text>
+<text x="40" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">151 contributions in the last 28 days</text>
 </svg>
