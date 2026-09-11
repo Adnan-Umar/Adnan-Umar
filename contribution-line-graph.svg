@@ -37,10 +37,10 @@
   <line x1="40" y1="76.55172413793102" x2="780" y2="76.55172413793102" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
   <text x="34" y="33.0">58</text>
 </g>
-<path d="M 40.0 169.7 L 67.4 30.0 L 94.8 210.0 L 122.2 151.0 L 149.6 200.7 L 177.0 210.0 L 204.4 210.0 L 231.9 172.8 L 259.3 210.0 L 286.7 203.8 L 314.1 154.1 L 341.5 188.3 L 368.9 172.8 L 396.3 154.1 L 423.7 188.3 L 451.1 160.3 L 478.5 185.2 L 505.9 179.0 L 533.3 147.9 L 560.7 182.1 L 588.1 169.7 L 615.6 154.1 L 643.0 175.9 L 670.4 200.7 L 697.8 73.4 L 725.2 172.8 L 752.6 151.0 L 780.0 160.3 L 780.0 210.0 L 40.0 210.0 Z" fill="url(#areaGrad)" opacity="0">
+<path d="M 40.0 169.7 L 67.4 30.0 L 94.8 210.0 L 122.2 151.0 L 149.6 200.7 L 177.0 210.0 L 204.4 210.0 L 231.9 172.8 L 259.3 210.0 L 286.7 203.8 L 314.1 154.1 L 341.5 188.3 L 368.9 172.8 L 396.3 154.1 L 423.7 188.3 L 451.1 160.3 L 478.5 185.2 L 505.9 179.0 L 533.3 147.9 L 560.7 182.1 L 588.1 169.7 L 615.6 154.1 L 643.0 175.9 L 670.4 200.7 L 697.8 73.4 L 725.2 172.8 L 752.6 151.0 L 780.0 157.2 L 780.0 210.0 L 40.0 210.0 Z" fill="url(#areaGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
 </path>
-<path d="M 40.0 169.7 L 67.4 30.0 L 94.8 210.0 L 122.2 151.0 L 149.6 200.7 L 177.0 210.0 L 204.4 210.0 L 231.9 172.8 L 259.3 210.0 L 286.7 203.8 L 314.1 154.1 L 341.5 188.3 L 368.9 172.8 L 396.3 154.1 L 423.7 188.3 L 451.1 160.3 L 478.5 185.2 L 505.9 179.0 L 533.3 147.9 L 560.7 182.1 L 588.1 169.7 L 615.6 154.1 L 643.0 175.9 L 670.4 200.7 L 697.8 73.4 L 725.2 172.8 L 752.6 151.0 L 780.0 160.3" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" opacity="0">
+<path d="M 40.0 169.7 L 67.4 30.0 L 94.8 210.0 L 122.2 151.0 L 149.6 200.7 L 177.0 210.0 L 204.4 210.0 L 231.9 172.8 L 259.3 210.0 L 286.7 203.8 L 314.1 154.1 L 341.5 188.3 L 368.9 172.8 L 396.3 154.1 L 423.7 188.3 L 451.1 160.3 L 478.5 185.2 L 505.9 179.0 L 533.3 147.9 L 560.7 182.1 L 588.1 169.7 L 615.6 154.1 L 643.0 175.9 L 670.4 200.7 L 697.8 73.4 L 725.2 172.8 L 752.6 151.0 L 780.0 157.2" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
 </path>
 <circle cx="40.0" cy="169.7" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
@@ -124,7 +124,7 @@
 <circle cx="752.6" cy="151.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.39s"/>
 </circle>
-<circle cx="780.0" cy="160.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="780.0" cy="157.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.405s"/>
 </circle>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e" text-anchor="middle">
@@ -133,5 +133,5 @@
   <text x="423.7" y="222">Aug 01</text>
   <text x="615.6" y="222">Aug 22</text>
 </g>
-<text x="40" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">368 contributions | Peak: 58 on Jun 23</text>
+<text x="40" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">369 contributions | Peak: 58 on Jun 23</text>
 </svg>
