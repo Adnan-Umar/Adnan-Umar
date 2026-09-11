@@ -358,6 +358,7 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 | **Kubernetes-Native Deployment** | 2024 – Present | Containerized microservices on K8s |
 | **Spring AI Integration** | 2025 | AI-integrated services with OpenAI APIs |
 | **Final Year Thesis** | 2026 | System design at scale · cloud-native observability |
+| **Django Web Projects** | 2024 – Present | Django-based web applications with REST APIs |
 
 ---
 
