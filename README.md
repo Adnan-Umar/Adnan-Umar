@@ -325,9 +325,42 @@ Every PR I write is treated as production code — clean architecture, meaningfu
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adnanmd0786@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_adnan__umar_)
 
+<div align="center">
+
+### Languages Across My 7 Repositories
+
+<div align="center">
+
+| Language | Total Bytes | Percentage | Repos |
+|:---|---:|---:|---:|
+| Java | 385,214 | 32.4% | 3 |
+| TypeScript | 310,842 | 26.2% | 2 |
+| JavaScript | 233,657 | 19.7% | 2 |
+| Python | 212,945 | 17.9% | 1 |
+| CSS | 24,803 | 2.1% | 2 |
+| HTML | 13,971 | 1.2% | 2 |
+| Dockerfile | 4,096 | 0.3% | 1 |
+| Mako | 511 | 0.0% | 1 |
+
+**Total**: 1,185,982 bytes across 7 repositories  
+**Primary Focus**: Enterprise backend systems with distributed microservices
+
 </div>
 
+### Key Contributions & Milestones
+
+| Milestone | Date | Significance |
+|:---|---:|---|
+| **Arctic Code Vault Contributor** | — | Code preserved in Arctic World Archive |
+| **942 Total Contributions** | Jul 2026 – Present | Active open source maintainer |
+| **First Java Spring Boot Project** | 2024 | Internship repository — production APIs |
+| **Kafka Consumer Implementation** | 2024 | Built resilient consumer with DLQ pattern |
+| **Kubernetes-Native Deployment** | 2024 – Present | Containerized microservices on K8s |
+| **Spring AI Integration** | 2025 | AI-integrated services with OpenAI APIs |
+| **Final Year Thesis** | 2026 | System design at scale · cloud-native observability |
+
 ---
+
 
 ## `$ cat quote.txt`
 
