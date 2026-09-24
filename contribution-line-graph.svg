@@ -29,109 +29,109 @@
 <text x="400" y="18" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e" text-anchor="middle">Contribution Trend — Last 3 Months</text>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e" text-anchor="end">
   <text x="34" y="213.0">0</text>
-  <text x="34" y="168.0">11</text>
-  <line x1="40" y1="165.0" x2="780" y2="165.0" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-  <text x="34" y="123.0">22</text>
-  <line x1="40" y1="120.0" x2="780" y2="120.0" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-  <text x="34" y="78.0">33</text>
-  <line x1="40" y1="75.0" x2="780" y2="75.0" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-  <text x="34" y="33.0">44</text>
+  <text x="34" y="169.09756097560975">10</text>
+  <line x1="40" y1="166.09756097560975" x2="780" y2="166.09756097560975" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="34" y="125.19512195121952">20</text>
+  <line x1="40" y1="122.19512195121952" x2="780" y2="122.19512195121952" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="34" y="81.29268292682926">30</text>
+  <line x1="40" y1="78.29268292682926" x2="780" y2="78.29268292682926" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="34" y="33.0">41</text>
 </g>
-<path d="M 40.0 197.7 L 67.4 210.0 L 94.8 210.0 L 122.2 160.9 L 149.6 210.0 L 177.0 201.8 L 204.4 136.4 L 231.9 181.4 L 259.3 160.9 L 286.7 136.4 L 314.1 181.4 L 341.5 144.5 L 368.9 177.3 L 396.3 169.1 L 423.7 128.2 L 451.1 173.2 L 478.5 156.8 L 505.9 136.4 L 533.3 165.0 L 560.7 197.7 L 588.1 30.0 L 615.6 160.9 L 643.0 132.3 L 670.4 136.4 L 697.8 115.9 L 725.2 128.2 L 752.6 189.5 L 780.0 173.2 L 780.0 210.0 L 40.0 210.0 Z" fill="url(#areaGrad)" opacity="0">
+<path d="M 40.0 210.0 L 67.4 210.0 L 94.8 157.3 L 122.2 210.0 L 149.6 210.0 L 177.0 201.2 L 204.4 109.0 L 231.9 174.9 L 259.3 139.8 L 286.7 170.5 L 314.1 157.3 L 341.5 157.3 L 368.9 174.9 L 396.3 144.1 L 423.7 135.4 L 451.1 179.3 L 478.5 122.2 L 505.9 161.7 L 533.3 166.1 L 560.7 179.3 L 588.1 30.0 L 615.6 152.9 L 643.0 122.2 L 670.4 109.0 L 697.8 139.8 L 725.2 126.6 L 752.6 174.9 L 780.0 174.9 L 780.0 210.0 L 40.0 210.0 Z" fill="url(#areaGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
 </path>
-<path d="M 40.0 197.7 L 67.4 210.0 L 94.8 210.0 L 122.2 160.9 L 149.6 210.0 L 177.0 201.8 L 204.4 136.4 L 231.9 181.4 L 259.3 160.9 L 286.7 136.4 L 314.1 181.4 L 341.5 144.5 L 368.9 177.3 L 396.3 169.1 L 423.7 128.2 L 451.1 173.2 L 478.5 156.8 L 505.9 136.4 L 533.3 165.0 L 560.7 197.7 L 588.1 30.0 L 615.6 160.9 L 643.0 132.3 L 670.4 136.4 L 697.8 115.9 L 725.2 128.2 L 752.6 189.5 L 780.0 173.2" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" opacity="0">
+<path d="M 40.0 210.0 L 67.4 210.0 L 94.8 157.3 L 122.2 210.0 L 149.6 210.0 L 177.0 201.2 L 204.4 109.0 L 231.9 174.9 L 259.3 139.8 L 286.7 170.5 L 314.1 157.3 L 341.5 157.3 L 368.9 174.9 L 396.3 144.1 L 423.7 135.4 L 451.1 179.3 L 478.5 122.2 L 505.9 161.7 L 533.3 166.1 L 560.7 179.3 L 588.1 30.0 L 615.6 152.9 L 643.0 122.2 L 670.4 109.0 L 697.8 139.8 L 725.2 126.6 L 752.6 174.9 L 780.0 174.9" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
 </path>
-<circle cx="40.0" cy="197.7" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="40.0" cy="210.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.0s"/>
 </circle>
 <circle cx="67.4" cy="210.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.015s"/>
 </circle>
-<circle cx="94.8" cy="210.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="94.8" cy="157.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.03s"/>
 </circle>
-<circle cx="122.2" cy="160.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="122.2" cy="210.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.045s"/>
 </circle>
 <circle cx="149.6" cy="210.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.06s"/>
 </circle>
-<circle cx="177.0" cy="201.8" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="177.0" cy="201.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.075s"/>
 </circle>
-<circle cx="204.4" cy="136.4" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="204.4" cy="109.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.09s"/>
 </circle>
-<circle cx="231.9" cy="181.4" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="231.9" cy="174.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.105s"/>
 </circle>
-<circle cx="259.3" cy="160.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="259.3" cy="139.8" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.12s"/>
 </circle>
-<circle cx="286.7" cy="136.4" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="286.7" cy="170.5" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.135s"/>
 </circle>
-<circle cx="314.1" cy="181.4" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="314.1" cy="157.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.15s"/>
 </circle>
-<circle cx="341.5" cy="144.5" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="341.5" cy="157.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.165s"/>
 </circle>
-<circle cx="368.9" cy="177.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="368.9" cy="174.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.18s"/>
 </circle>
-<circle cx="396.3" cy="169.1" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="396.3" cy="144.1" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.195s"/>
 </circle>
-<circle cx="423.7" cy="128.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="423.7" cy="135.4" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.21s"/>
 </circle>
-<circle cx="451.1" cy="173.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="451.1" cy="179.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.225s"/>
 </circle>
-<circle cx="478.5" cy="156.8" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="478.5" cy="122.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.24s"/>
 </circle>
-<circle cx="505.9" cy="136.4" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="505.9" cy="161.7" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.255s"/>
 </circle>
-<circle cx="533.3" cy="165.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="533.3" cy="166.1" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.27s"/>
 </circle>
-<circle cx="560.7" cy="197.7" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="560.7" cy="179.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.285s"/>
 </circle>
 <circle cx="588.1" cy="30.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.3s"/>
 </circle>
-<circle cx="615.6" cy="160.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="615.6" cy="152.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.315s"/>
 </circle>
-<circle cx="643.0" cy="132.3" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="643.0" cy="122.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.33s"/>
 </circle>
-<circle cx="670.4" cy="136.4" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="670.4" cy="109.0" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.345s"/>
 </circle>
-<circle cx="697.8" cy="115.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="697.8" cy="139.8" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.36s"/>
 </circle>
-<circle cx="725.2" cy="128.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="725.2" cy="126.6" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.375s"/>
 </circle>
-<circle cx="752.6" cy="189.5" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="752.6" cy="174.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.39s"/>
 </circle>
-<circle cx="780.0" cy="173.2" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
+<circle cx="780.0" cy="174.9" r="3.5" fill="#0d1117" stroke="url(#lineGrad)" stroke-width="2" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.405s"/>
 </circle>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e" text-anchor="middle">
-  <text x="40.0" y="222">Jul 02</text>
-  <text x="231.9" y="222">Jul 23</text>
-  <text x="423.7" y="222">Aug 13</text>
-  <text x="615.6" y="222">Sep 03</text>
+  <text x="40.0" y="222">Jul 03</text>
+  <text x="231.9" y="222">Jul 24</text>
+  <text x="423.7" y="222">Aug 14</text>
+  <text x="615.6" y="222">Sep 04</text>
 </g>
-<text x="40" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">337 contributions | Peak: 44 on Aug 31</text>
+<text x="40" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">337 contributions | Peak: 41 on Sep 01</text>
 </svg>
