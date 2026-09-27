@@ -1,47 +1,12 @@
 {
   "username": "Adnan-Umar",
-  "total": 1008,
+  "total": 1000,
   "best_day": {
     "date": "2026-06-24",
     "count": 54,
     "level": 4
   },
   "days": [
-    {
-      "date": "2025-09-21",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-22",
-      "count": 7,
-      "level": 2
-    },
-    {
-      "date": "2025-09-23",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-24",
-      "count": 2,
-      "level": 1
-    },
-    {
-      "date": "2025-09-25",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-26",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-27",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-09-28",
       "count": 0,
@@ -1859,6 +1824,11 @@
     },
     {
       "date": "2026-09-26",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-09-27",
       "count": 0,
       "level": 0
     }
