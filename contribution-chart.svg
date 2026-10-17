@@ -30,14 +30,14 @@
   <line x1="40" y1="83.33333333333334" x2="780" y2="83.33333333333334" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
   <text x="34" y="33.0">6</text>
 </g>
-<rect x="40" y="110.0" width="25" height="80.0" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;80.0" dur="0.5s" fill="freeze" begin="0.0s"/>
-<animate attributeName="y" values="190;110.0" dur="0.5s" fill="freeze" begin="0.0s"/>
+<rect x="40" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.0s"/>
+<animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.0s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.0s"/>
 </rect>
-<rect x="66" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.02s"/>
-<animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.02s"/>
+<rect x="66" y="83.33333333333334" width="25" height="106.66666666666666" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;106.66666666666666" dur="0.5s" fill="freeze" begin="0.02s"/>
+<animate attributeName="y" values="190;83.33333333333334" dur="0.5s" fill="freeze" begin="0.02s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.02s"/>
 </rect>
 <rect x="92" y="83.33333333333334" width="25" height="106.66666666666666" rx="2" fill="url(#barGrad)" opacity="0">
@@ -50,9 +50,9 @@
 <animate attributeName="y" values="190;83.33333333333334" dur="0.5s" fill="freeze" begin="0.06s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.06s"/>
 </rect>
-<rect x="144" y="83.33333333333334" width="25" height="106.66666666666666" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;106.66666666666666" dur="0.5s" fill="freeze" begin="0.08s"/>
-<animate attributeName="y" values="190;83.33333333333334" dur="0.5s" fill="freeze" begin="0.08s"/>
+<rect x="144" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.08s"/>
+<animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.08s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.08s"/>
 </rect>
 <rect x="170" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
@@ -135,9 +135,9 @@
 <animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.4s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.4s"/>
 </rect>
-<rect x="586" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.42s"/>
-<animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.42s"/>
+<rect x="586" y="136.66666666666669" width="25" height="53.33333333333333" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;53.33333333333333" dur="0.5s" fill="freeze" begin="0.42s"/>
+<animate attributeName="y" values="190;136.66666666666669" dur="0.5s" fill="freeze" begin="0.42s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.42s"/>
 </rect>
 <rect x="612" y="136.66666666666669" width="25" height="53.33333333333333" rx="2" fill="url(#barGrad)" opacity="0">
@@ -145,42 +145,40 @@
 <animate attributeName="y" values="190;136.66666666666669" dur="0.5s" fill="freeze" begin="0.44s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.44s"/>
 </rect>
-<rect x="638" y="136.66666666666669" width="25" height="53.33333333333333" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;53.33333333333333" dur="0.5s" fill="freeze" begin="0.46s"/>
-<animate attributeName="y" values="190;136.66666666666669" dur="0.5s" fill="freeze" begin="0.46s"/>
+<rect x="638" y="30.0" width="25" height="160.0" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;160.0" dur="0.5s" fill="freeze" begin="0.46s"/>
+<animate attributeName="y" values="190;30.0" dur="0.5s" fill="freeze" begin="0.46s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.46s"/>
 </rect>
-<rect x="664" y="30.0" width="25" height="160.0" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;160.0" dur="0.5s" fill="freeze" begin="0.48s"/>
-<animate attributeName="y" values="190;30.0" dur="0.5s" fill="freeze" begin="0.48s"/>
+<rect x="664" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.48s"/>
+<animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.48s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.48s"/>
 </rect>
-<rect x="690" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.5s"/>
-<animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.5s"/>
+<rect x="690" y="110.0" width="25" height="80.0" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;80.0" dur="0.5s" fill="freeze" begin="0.5s"/>
+<animate attributeName="y" values="190;110.0" dur="0.5s" fill="freeze" begin="0.5s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.5s"/>
 </rect>
-<rect x="716" y="110.0" width="25" height="80.0" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;80.0" dur="0.5s" fill="freeze" begin="0.52s"/>
-<animate attributeName="y" values="190;110.0" dur="0.5s" fill="freeze" begin="0.52s"/>
+<rect x="716" y="136.66666666666669" width="25" height="53.33333333333333" rx="2" fill="url(#barGrad)" opacity="0">
+<animate attributeName="height" values="0;53.33333333333333" dur="0.5s" fill="freeze" begin="0.52s"/>
+<animate attributeName="y" values="190;136.66666666666669" dur="0.5s" fill="freeze" begin="0.52s"/>
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.52s"/>
 </rect>
-<rect x="742" y="163.33333333333334" width="25" height="26.666666666666664" rx="2" fill="url(#barGrad)" opacity="0">
-<animate attributeName="height" values="0;26.666666666666664" dur="0.5s" fill="freeze" begin="0.54s"/>
-<animate attributeName="y" values="190;163.33333333333334" dur="0.5s" fill="freeze" begin="0.54s"/>
+<rect x="742" y="190.0" width="25" height="0.0" rx="2" fill="url(#barGrad)" opacity="0">
 <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.54s"/>
 </rect>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e" text-anchor="middle">
-  <text x="52.5" y="202">Sep 19</text>
-  <text x="130.5" y="202">Sep 22</text>
-  <text x="208.5" y="202">Sep 25</text>
-  <text x="286.5" y="202">Sep 28</text>
-  <text x="364.5" y="202">Oct 01</text>
-  <text x="442.5" y="202">Oct 04</text>
-  <text x="520.5" y="202">Oct 07</text>
-  <text x="598.5" y="202">Oct 10</text>
-  <text x="676.5" y="202">Oct 13</text>
-  <text x="754.5" y="202">Oct 16</text>
+  <text x="52.5" y="202">Sep 20</text>
+  <text x="130.5" y="202">Sep 23</text>
+  <text x="208.5" y="202">Sep 26</text>
+  <text x="286.5" y="202">Sep 29</text>
+  <text x="364.5" y="202">Oct 02</text>
+  <text x="442.5" y="202">Oct 05</text>
+  <text x="520.5" y="202">Oct 08</text>
+  <text x="598.5" y="202">Oct 11</text>
+  <text x="676.5" y="202">Oct 14</text>
+  <text x="754.5" y="202">Oct 17</text>
 </g>
-<text x="40" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">48 contributions in the last 28 days</text>
+<text x="40" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#8b949e">46 contributions in the last 28 days</text>
 </svg>
